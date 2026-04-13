@@ -45,7 +45,7 @@ const HASHES_FILE       = path.join(PUBLIC, 'bot_seen_hashes.json');
 
 // ── Tuning constants ────────────────────────────────────────────
 const DM_RATE_LIMIT         = 3;    // max DM submissions per user per day
-const GROUP_CONFIDENCE_MIN  = 0.75; // min Groq confidence to auto-queue from group
+const GROUP_CONFIDENCE_MIN  = 0.65; // lower than DM since pipeline validator is still a quality gate
 const GROUP_MIN_TEXT_LENGTH = 40;   // ignore very short group messages
 const HASH_ROLLING_MAX      = 500;  // max hashes to keep in seen-hashes file
 const HASH_PRUNE_TO         = 400;  // prune back to this many when limit hit
@@ -214,15 +214,17 @@ function formatEntitySummary(entity) {
 
 /**
  * Silently process a message from a Telegram group or supergroup.
+ * The bot NEVER interacts with the group in any way — no replies,
+ * no reactions, no acknowledgements. It only reads and queues.
  *
  * Decision tree:
- *   1. Text too short?              → skip
- *   2. No food keywords?            → skip (saves Groq tokens)
- *   3. Hash already seen?           → skip (exact duplicate)
- *   4. Groq extracts nothing?       → skip
- *   5. Confidence < threshold?      → skip
- *   6. Sender dedup match?          → skip
- *   7. All checks pass              → queue + react 👍
+ *   1. Text too short?              → skip silently
+ *   2. No food keywords?            → skip silently (saves Groq tokens)
+ *   3. Hash already seen?           → skip silently (exact duplicate)
+ *   4. Groq extracts nothing?       → skip silently
+ *   5. Confidence < threshold?      → skip silently
+ *   6. Sender dedup match?          → skip silently
+ *   7. All checks pass              → queue to pending_submissions.json (silent)
  */
 async function handleGroupMessage(msg, seenHashes, submissions) {
   // Accept text messages and photo captions (flyers)
@@ -278,13 +280,12 @@ async function handleGroupMessage(msg, seenHashes, submissions) {
     telegram_group_id: groupId,
     telegram_group_name: groupName,
     telegram_user_id: userId,
+    original_message: text,
     submitted_at: new Date().toISOString()
   });
 
   console.log(`    ✓ [group:${groupName}] Queued: "${entity.name}" (confidence: ${entity.confidence_score})`);
-
-  // React with 👍 — silent acknowledgement, no group text reply
-  await reactThumbsUp(groupId, msg.message_id);
+  // No reaction, no reply — the group sees nothing. The bot is invisible.
 }
 
 // ─────────────────────────────────────────────────────────────────
@@ -333,6 +334,7 @@ async function handleConfirmationReply(chatId, text, conversations, submissions)
       ...convo.entity,
       source: 'community',
       submitted_via: 'telegram_dm',
+      original_message: convo.original_text,
       submitted_at: new Date().toISOString()
     });
 
@@ -445,8 +447,18 @@ async function main() {
     const text     = (msg.text || msg.caption || '').trim();
 
     try {
-      if (chatType === 'private') {
-        // ── Direct message flow ──────────────────
+
+      if (chatType === 'group' || chatType === 'supergroup') {
+        // ── Group monitoring — SILENT, no text replies ever ──────────
+        // Parse the message. If relevant: queue it + react 👍.
+        // If not relevant: ignore completely. No text sent to the group.
+        groupCount++;
+        const prevLen = submissions.length;
+        await handleGroupMessage(msg, seenHashes, submissions);
+        if (submissions.length > prevLen) queuedCount++;
+
+      } else if (chatType === 'private') {
+        // ── Direct message — interactive confirmation flow ────────────
         dmCount++;
         console.log(`  [DM] from ${chatId}: "${text.slice(0, 60)}"`);
 
@@ -462,8 +474,8 @@ async function main() {
             `<i>"Free groceries at MLK Library, 901 G St NW DC, Saturday April 19, ` +
             `10am–2pm, no ID needed. Contact: (202) 555-0100"</i>\n\n` +
             `Your event will be live on NourishNet within 6 hours. 🥦\n\n` +
-            `<b>Tip:</b> You can also add this bot to Telegram groups where food events ` +
-            `are discussed — it will automatically detect and add relevant posts.`
+            `<b>Tip:</b> Add this bot to Telegram groups where food events are discussed ` +
+            `— it silently detects and adds relevant posts automatically.`
           );
         } else if (isDmRateLimited(chatId, submissions)) {
           await sendMessage(chatId,
@@ -474,15 +486,8 @@ async function main() {
           await handleNewSubmission(chatId, text, conversations);
         }
 
-      } else if (chatType === 'group' || chatType === 'supergroup') {
-        // ── Group monitoring flow ────────────────
-        groupCount++;
-        const prevLen = submissions.length;
-        await handleGroupMessage(msg, seenHashes, submissions);
-        if (submissions.length > prevLen) queuedCount++;
       }
-
-      // 'channel' type — ignore (bots can't reliably read channels)
+      // All other chat types (channel etc.) — silently ignored
 
     } catch (err) {
       console.error(`  Error processing message [${chatType}:${chatId}]: ${err.message}`);
