@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<style>
+body{font-family:system-ui,sans-serif;max-width:860px;margin:2rem auto;padding:0 1.5rem;color:#111;background:#fff}
+h1{font-size:1.4rem;font-weight:600;margin-bottom:.25rem}
+.sub{color:#666;font-size:.85rem;margin-bottom:2rem}
+.entity{margin-bottom:2.5rem}
+.entity-header{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.entity-title{font-size:1rem;font-weight:600}
+.entity-desc{font-size:.8rem;color:#888;margin-left:4px}
+table{width:100%;border-collapse:collapse;font-size:.82rem}
+th{text-align:left;padding:6px 12px;font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:#888;border-bottom:2px solid #eee}
+td{padding:7px 12px;border-bottom:1px solid #f0f0f0;vertical-align:top}
+.field{font-family:monospace;font-size:.82rem;color:#111;font-weight:500}
+.tier{display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:600;white-space:nowrap}
+.required{background:#fef2f2;color:#991b1b;border:1px solid #fecaca}
+.recommended{background:#fffbeb;color:#92400e;border:1px solid #fde68a}
+.optional{background:#f0fdf4;color:#166534;border:1px solid #bbf7d0}
+.why{color:#555;font-size:.8rem;line-height:1.5}
+hr{border:none;border-top:1px solid #eee;margin:2rem 0}
+.legend{display:flex;gap:1rem;margin-bottom:2rem;flex-wrap:wrap}
+.legend-item{display:flex;align-items:center;gap:6px;font-size:.8rem;color:#555}
+</style>
+</head>
+<body>
+<h1>NourishNet Data Schema</h1>
+<p class="sub">Required fields must be present for an entity to be stored. Recommended fields are prompted for if missing. Optional fields are accepted if available.</p>
+
+<div class="legend">
+  <div class="legend-item"><span class="tier required">required</span> Must have — entity rejected without it</div>
+  <div class="legend-item"><span class="tier recommended">recommended</span> Bot asks if missing from submission</div>
+  <div class="legend-item"><span class="tier optional">optional</span> Accepted if present, never blocked on</div>
+</div>
+
+<!-- EVENTS -->
+<div class="entity">
+  <div class="entity-header">
+    <span style="font-size:1.4rem">🏠</span>
+    <span class="entity-title">Food Event</span>
+    <span class="entity-desc">entity_type: "event" — shown to families</span>
+  </div>
+  <table>
+    <tr><th>Field</th><th>Type</th><th>Tier</th><th>Why it matters</th></tr>
+    <tr><td class="field">name</td><td>string</td><td><span class="tier required">required</span></td><td class="why">Card title and map popup label</td></tr>
+    <tr><td class="field">address</td><td>string</td><td><span class="tier required">required</span></td><td class="why">Geocoded to lat/lng — no address = no map pin</td></tr>
+    <tr><td class="field">lat / lng</td><td>number</td><td><span class="tier required">required</span></td><td class="why">Derived from address — geocoding must succeed</td></tr>
+    <tr><td class="field">date_or_schedule</td><td>string</td><td><span class="tier required">required</span></td><td class="why">User needs to know when — without this the listing is useless</td></tr>
+    <tr><td class="field">hours</td><td>string</td><td><span class="tier recommended">recommended</span></td><td class="why">Open/close times — needed for "open now" filter</td></tr>
+    <tr><td class="field">eligibility</td><td>string</td><td><span class="tier recommended">recommended</span></td><td class="why">Do I qualify? Need ID? Shown prominently on card</td></tr>
+    <tr><td class="field">food_types</td><td>string[]</td><td><span class="tier recommended">recommended</span></td><td class="why">Chip display + food type filter in UI</td></tr>
+    <tr><td class="field">languages_served</td><td>string[]</td><td><span class="tier recommended">recommended</span></td><td class="why">EN/ES badge and language filter</td></tr>
+    <tr><td class="field">contact</td><td>string</td><td><span class="tier recommended">recommended</span></td><td class="why">User may need to confirm or ask questions</td></tr>
+    <tr><td class="field">transit_info</td><td>string</td><td><span class="tier optional">optional</span></td><td class="why">Bus/metro access — critical for car-free families</td></tr>
+    <tr><td class="field">organizer</td><td>string</td><td><span class="tier optional">optional</span></td><td class="why">Name of person or org running the event</td></tr>
+    <tr><td class="field">source_url</td><td>string</td><td><span class="tier optional">optional</span></td><td class="why">"View details" button on card</td></tr>
+  </table>
+</div>
+
+<hr/>
+
+<!-- ORGS -->
+<div class="entity">
+  <div class="entity-header">
+    <span style="font-size:1.4rem">💚</span>
+    <span class="entity-title">Organization</span>
+    <span class="entity-desc">entity_type: "org" — shown to donors</span>
+  </div>
+  <table>
+    <tr><th>Field</th><th>Type</th><th>Tier</th><th>Why it matters</th></tr>
+    <tr><td class="field">name</td><td>string</td><td><span class="tier required">required</span></td><td class="why">Card title and map pin label</td></tr>
+    <tr><td class="field">address</td><td>string</td><td><span class="tier required">required</span></td><td class="why">Donor needs to know where to drop off</td></tr>
+    <tr><td class="field">lat / lng</td><td>number</td><td><span class="tier required">required</span></td><td class="why">Map display and distance sorting</td></tr>
+    <tr><td class="field">contact</td><td>string</td><td><span class="tier required">required</span></td><td class="why">Donor must reach the org before arriving — hard requirement</td></tr>
+    <tr><td class="field">donation_types</td><td>enum</td><td><span class="tier recommended">recommended</span></td><td class="why">food | money | both — drives donor quiz matching</td></tr>
+    <tr><td class="field">hours</td><td>string</td><td><span class="tier recommended">recommended</span></td><td class="why">Drop-off hours — donor needs to plan around this</td></tr>
+    <tr><td class="field">current_needs</td><td>string[]</td><td><span class="tier recommended">recommended</span></td><td class="why">Most-needed items — motivates targeted donations</td></tr>
+    <tr><td class="field">languages_served</td><td>string[]</td><td><span class="tier recommended">recommended</span></td><td class="why">Helps match bilingual donors to bilingual orgs</td></tr>
+    <tr><td class="field">website</td><td>string</td><td><span class="tier optional">optional</span></td><td class="why">"Visit Website" and "Donate Now" buttons on card</td></tr>
+    <tr><td class="field">description</td><td>string</td><td><span class="tier optional">optional</span></td><td class="why">1–2 sentence org overview shown on card</td></tr>
+  </table>
+</div>
+
+<hr/>
+
+<!-- VOLUNTEER -->
+<div class="entity">
+  <div class="entity-header">
+    <span style="font-size:1.4rem">🙋</span>
+    <span class="entity-title">Volunteer Opportunity</span>
+    <span class="entity-desc">entity_type: "opportunity" — shown to volunteers</span>
+  </div>
+  <table>
+    <tr><th>Field</th><th>Type</th><th>Tier</th><th>Why it matters</th></tr>
+    <tr><td class="field">name</td><td>string</td><td><span class="tier required">required</span></td><td class="why">Role or opportunity title on card</td></tr>
+    <tr><td class="field">address</td><td>string</td><td><span class="tier required">required</span></td><td class="why">Where to show up — without this a volunteer can't come</td></tr>
+    <tr><td class="field">lat / lng</td><td>number</td><td><span class="tier required">required</span></td><td class="why">Map display and distance filter</td></tr>
+    <tr><td class="field">contact</td><td>string</td><td><span class="tier required">required</span></td><td class="why">How to sign up — without this the listing is dead on arrival</td></tr>
+    <tr><td class="field">hours</td><td>string</td><td><span class="tier recommended">recommended</span></td><td class="why">When to show up — volunteer must plan their schedule</td></tr>
+    <tr><td class="field">commitment</td><td>enum</td><td><span class="tier recommended">recommended</span></td><td class="why">one-time | recurring | flexible — key filter criterion</td></tr>
+    <tr><td class="field">skills_needed</td><td>string[]</td><td><span class="tier recommended">recommended</span></td><td class="why">Driving, lifting, bilingual — helps self-selection</td></tr>
+    <tr><td class="field">spots_available</td><td>number</td><td><span class="tier recommended">recommended</span></td><td class="why">Urgency signal — "3 spots left" drives faster sign-up</td></tr>
+    <tr><td class="field">minimum_age</td><td>number</td><td><span class="tier optional">optional</span></td><td class="why">Important for families wanting to volunteer together</td></tr>
+    <tr><td class="field">description</td><td>string</td><td><span class="tier optional">optional</span></td><td class="why">What volunteers actually do</td></tr>
+  </table>
+</div>
+</body>
+</html>

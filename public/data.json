@@ -1,0 +1,54 @@
+[
+  {
+    "entity_type": "event",
+    "name": "Free Food Distribution",
+    "address": "901 G St NW, Washington DC",
+    "hours": "10am to 2pm",
+    "eligibility": "Everyone welcome",
+    "food_types": [
+      "produce",
+      "canned goods",
+      "bread"
+    ],
+    "languages_served": [
+      "en"
+    ],
+    "contact": "(202) 555-0147",
+    "description": "Free food distribution event",
+    "confidence_score": 0.95,
+    "source_url": "bot-submission",
+    "source": "community",
+    "extracted_at": "2026-04-13T14:01:25.487Z",
+    "submitted_via": "telegram",
+    "submitted_at": "2026-04-13T14:02:40.458Z",
+    "lat": 38.8986914,
+    "lng": -77.0247662,
+    "status": "ongoing",
+    "validated_at": "2026-04-13T14:03:33.911Z"
+  },
+  {
+    "entity_type": "opportunity",
+    "name": "Mobile Kitchen Driver",
+    "address": "425 2nd St NW, Washington, DC 20001",
+    "hours": "Monday - Friday, 7:00 AM - 10:00 AM",
+    "eligibility": "21+ with a clean driving record",
+    "food_types": [
+      "hot meals"
+    ],
+    "languages_served": [
+      "en"
+    ],
+    "contact": "dccentralkitchen.org/volunteer",
+    "description": "Drive a van to deliver hot meals",
+    "confidence_score": 0.85,
+    "source_url": "bot-submission",
+    "source": "community",
+    "extracted_at": "2026-04-13T16:48:45.052Z",
+    "submitted_via": "telegram",
+    "submitted_at": "2026-04-13T16:50:41.799Z",
+    "lat": 38.8953954,
+    "lng": -77.0132898,
+    "status": "active",
+    "validated_at": "2026-04-13T16:58:19.669Z"
+  }
+]
