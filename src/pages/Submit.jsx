@@ -4,11 +4,22 @@ import { useData } from '../hooks/useData'
 import Navbar from '../components/Navbar'
 import CommunityBadge from '../components/CommunityBadge'
 
-// Replace with your actual bot username after creating it with BotFather
 const BOT_USERNAME = 'nourishnet_bot'
 const TELEGRAM_URL = `https://t.me/${BOT_USERNAME}`
 
 const STEPS = ['step1', 'step2', 'step3']
+
+function TelegramIcon({ size = 20 }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="12" fill="#2AABEE" />
+      <path
+        d="M5.1 11.4l13-5c.6-.2 1.1.1.9.8l-2.2 10.3c-.2.7-.6.9-1.2.5l-3.3-2.4-1.6 1.5c-.2.2-.4.3-.7.3l.2-3.4 5.5-5c.2-.2 0-.3-.3-.1L7.2 13.2l-2.1-.7c-.7-.2-.7-.7 0-.9z"
+        fill="white"
+      />
+    </svg>
+  )
+}
 
 export default function Submit() {
   const { t } = useLang()
@@ -35,7 +46,8 @@ export default function Submit() {
           <div className="space-y-4">
             {STEPS.map((step, i) => (
               <div key={step} className="flex gap-4 items-start">
-                <div className="w-8 h-8 rounded-full bg-teal-100 text-teal-700 flex items-center justify-center text-sm font-bold flex-shrink-0">
+                <div className="w-8 h-8 rounded-full bg-teal-100 text-teal-700 flex items-center
+                                justify-center text-sm font-bold flex-shrink-0">
                   {i + 1}
                 </div>
                 <p className="text-sm text-gray-700 leading-relaxed pt-1">{t.submit[step]}</p>
@@ -50,9 +62,12 @@ export default function Submit() {
             href={TELEGRAM_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-1 btn-primary text-center py-3 text-sm font-semibold"
+            className="flex-1 flex items-center justify-center gap-2 py-3 rounded-xl
+                       text-white text-sm font-semibold transition-opacity hover:opacity-90"
+            style={{ background: '#2AABEE' }}
           >
-            ✈ {t.submit.open_bot}
+            <TelegramIcon size={18} />
+            @{BOT_USERNAME}
           </a>
           <button
             onClick={() => navigate(-1)}
@@ -62,30 +77,34 @@ export default function Submit() {
           </button>
         </div>
 
-        {/* QR code section */}
+        {/* QR / handle section */}
         <div className="bg-gray-50 rounded-2xl border border-gray-100 p-6 text-center">
           <p className="text-sm text-gray-500 mb-4">{t.submit.scan}</p>
-          {/* QR code as simple visual placeholder — replace with a real QR image */}
           <div className="inline-block bg-white p-4 rounded-xl shadow-sm border border-gray-200">
-            <div className="w-32 h-32 flex items-center justify-center text-gray-300 text-xs text-center">
+            <div className="w-32 h-32 flex items-center justify-center text-center">
               <div>
-                <p className="text-3xl mb-2">📱</p>
-                <p>QR code for</p>
-                <p className="font-mono text-teal-600">@{BOT_USERNAME}</p>
+                <div className="flex justify-center mb-2">
+                  <div className="w-10 h-10 rounded-xl flex items-center justify-center"
+                       style={{ background: '#2AABEE' }}>
+                    <TelegramIcon size={24} />
+                  </div>
+                </div>
+                <p className="text-xs text-gray-400">Telegram bot</p>
+                <p className="font-mono text-sm font-bold text-sky-600 mt-1">@{BOT_USERNAME}</p>
               </div>
             </div>
           </div>
           <p className="text-xs text-gray-400 mt-3">
-            Telegram: <span className="font-mono text-teal-600">@{BOT_USERNAME}</span>
+            Open Telegram and search for <span className="font-mono font-semibold text-sky-600">@{BOT_USERNAME}</span>
           </p>
         </div>
 
         {/* Community events list */}
         {communityEvents.length > 0 && (
           <div>
-            <h2 className="font-semibold text-gray-900 mb-4">
+            <h2 className="font-semibold text-gray-900 mb-4 flex items-center gap-2">
               {t.submit.community_title}
-              <span className="ml-2 badge bg-teal-50 text-teal-700 border border-teal-200">
+              <span className="badge bg-teal-50 text-teal-700 border border-teal-200">
                 {communityEvents.length}
               </span>
             </h2>
@@ -99,6 +118,11 @@ export default function Submit() {
                   </div>
                   {e.address && <p className="text-xs text-gray-500">📍 {e.address}</p>}
                   {e.hours   && <p className="text-xs text-teal-700 mt-1">🕐 {e.hours}</p>}
+                  {e.telegram_group_name && (
+                    <p className="text-xs text-sky-500 mt-1">
+                      ✈ From {e.telegram_group_name}
+                    </p>
+                  )}
                 </div>
               ))}
             </div>
