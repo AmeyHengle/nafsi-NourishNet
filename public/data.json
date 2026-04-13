@@ -5,7 +5,7 @@
     "address": "901 G St NW, Washington, DC 20001",
     "lat": 38.8976,
     "lng": -77.0246,
-    "hours": "Saturdays 10:00am \u2013 2:00pm",
+    "hours": "Saturdays 10:00am – 2:00pm",
     "eligibility": "No ID required. All welcome.",
     "food_types": [
       "produce",
@@ -31,7 +31,7 @@
     "address": "4321 Sheriff Rd NE, Washington, DC 20019",
     "lat": 38.8968,
     "lng": -76.9432,
-    "hours": "Thursdays 11:00am \u2013 3:00pm",
+    "hours": "Thursdays 11:00am – 3:00pm",
     "eligibility": "Open to all DC residents. No paperwork needed.",
     "food_types": [
       "fresh vegetables",
@@ -52,7 +52,7 @@
     "source_url": null,
     "submitted_via": "telegram_group",
     "telegram_group_name": "DC Community Food Network",
-    "original_message": "\ud83d\udce2 COMMUNITY ALERT \ud83d\udce2\n\nFOOD GIVEAWAY \u2014 Thursdays 11am-3pm\n\ud83d\udccd Kingdom Life Church, 4321 Sheriff Rd NE, Washington DC 20019\n\nFresh vegetables, fruit, rice, beans, baby formula. Open to ALL families. No paperwork. Se habla espa\u00f1ol. Contact: (202) 555-0147",
+    "original_message": "📢 COMMUNITY ALERT 📢\n\nFOOD GIVEAWAY — Thursdays 11am-3pm\n📍 Kingdom Life Church, 4321 Sheriff Rd NE, Washington DC 20019\n\nFresh vegetables, fruit, rice, beans, baby formula. Open to ALL families. No paperwork. Se habla español. Contact: (202) 555-0147",
     "extracted_at": "2026-04-12T10:00:00Z"
   },
   {
@@ -61,7 +61,7 @@
     "address": "4310 Gallatin St, Hyattsville, MD 20781",
     "lat": 38.9548,
     "lng": -76.9455,
-    "hours": "First and third Saturdays, 9:00am \u2013 12:00pm",
+    "hours": "First and third Saturdays, 9:00am – 12:00pm",
     "eligibility": "Prince George's County residents. Bring any form of ID.",
     "food_types": [
       "canned goods",
@@ -87,7 +87,7 @@
     "address": "4900 Puerto Rico Ave NE, Washington, DC 20017",
     "lat": 38.9323,
     "lng": -76.9888,
-    "hours": "Mon\u2013Fri 8:00am \u2013 5:00pm",
+    "hours": "Mon–Fri 8:00am – 5:00pm",
     "eligibility": "Open to partner agencies and community programs.",
     "food_types": [
       "produce",
@@ -114,7 +114,7 @@
     "address": "425 2nd St NW, Washington, DC 20001",
     "lat": 38.9003,
     "lng": -77.013,
-    "hours": "Mon\u2013Fri 7:00am \u2013 3:00pm",
+    "hours": "Mon–Fri 7:00am – 3:00pm",
     "eligibility": "Open to all DC residents and community partners.",
     "food_types": [
       "hot meals",
@@ -133,55 +133,12 @@
     "extracted_at": "2026-04-13T00:00:00Z"
   },
   {
-    "entity_type": "opportunity",
-    "name": "Food Sorting Volunteer \u2014 Capital Area Food Bank",
-    "address": "4900 Puerto Rico Ave NE, Washington, DC 20017",
-    "lat": 38.9323,
-    "lng": -76.9888,
-    "hours": "Tuesdays and Saturdays 8:00am \u2013 11:00am",
-    "eligibility": "Open to all. Groups welcome.",
-    "food_types": [],
-    "languages_served": [
-      "en",
-      "es"
-    ],
-    "contact": "volunteer@capitalareafoodbank.org",
-    "description": "Help sort and pack food donations at the warehouse. No experience needed.",
-    "confidence_score": 0.93,
-    "source": "web",
-    "status": "active",
-    "source_url": "https://www.capitalareafoodbank.org/volunteer",
-    "extracted_at": "2026-04-13T00:00:00Z"
-  },
-  {
-    "entity_type": "opportunity",
-    "name": "Mobile Pantry Driver \u2014 DC Central Kitchen",
-    "address": "425 2nd St NW, Washington, DC 20001",
-    "lat": 38.9003,
-    "lng": -77.013,
-    "hours": "Weekday mornings 6:30am \u2013 10:00am",
-    "eligibility": "Must have valid driver's license.",
-    "food_types": [],
-    "languages_served": [
-      "en"
-    ],
-    "contact": "(202) 234-0707",
-    "description": "Drive food delivery vans to shelters, schools, and community sites across DC.",
-    "confidence_score": 0.89,
-    "source": "community",
-    "status": "active",
-    "source_url": "https://www.dccentralkitchen.org/volunteer",
-    "submitted_via": "telegram_dm",
-    "original_message": "Hey, DC Central Kitchen urgently needs mobile pantry drivers on weekday mornings 6:30-10am. Must have valid driver's license. Great opportunity to serve DC communities directly. Call (202) 234-0707 to sign up.",
-    "extracted_at": "2026-04-12T10:00:00Z"
-  },
-  {
     "entity_type": "org",
     "name": "Bread for the City",
     "address": "1525 7th St NW, Washington, DC 20001",
     "lat": 38.9094,
     "lng": -77.0215,
-    "hours": "Mon\u2013Fri 9:00am \u2013 5:00pm \u00b7 Sat 10:00am \u2013 2:00pm",
+    "hours": "Mon–Fri 9:00am – 5:00pm · Sat 10:00am – 2:00pm",
     "eligibility": "DC residents with low income. Bring proof of address.",
     "food_types": [
       "produce",
@@ -216,7 +173,7 @@
     "address": "2114 14th St NW, Washington, DC 20009",
     "lat": 38.9197,
     "lng": -77.0326,
-    "hours": "Mon\u2013Fri 8:00am \u2013 4:00pm",
+    "hours": "Mon–Fri 8:00am – 4:00pm",
     "eligibility": "Open to all DC residents. No documentation required.",
     "food_types": [
       "hot meals",
@@ -246,11 +203,11 @@
   },
   {
     "entity_type": "org",
-    "name": "SOME \u2014 So Others Might Eat",
+    "name": "SOME — So Others Might Eat",
     "address": "71 O St NW, Washington, DC 20001",
     "lat": 38.9069,
     "lng": -77.012,
-    "hours": "Mon\u2013Fri 7:00am \u2013 3:00pm (meals) \u00b7 Mon\u2013Thu 9:00am \u2013 4:00pm (pantry)",
+    "hours": "Mon–Fri 7:00am – 3:00pm (meals) · Mon–Thu 9:00am – 4:00pm (pantry)",
     "eligibility": "Open to all. No ID required for meals.",
     "food_types": [
       "hot meals",
@@ -282,7 +239,7 @@
     "address": "9311 Gaither Rd, Gaithersburg, MD 20877",
     "lat": 39.1541,
     "lng": -77.2271,
-    "hours": "Mon\u2013Sat 10:00am \u2013 4:00pm \u00b7 Closed Sundays",
+    "hours": "Mon–Sat 10:00am – 4:00pm · Closed Sundays",
     "eligibility": "Montgomery County residents. No income verification required.",
     "food_types": [
       "produce",
@@ -318,7 +275,7 @@
     "address": "200 Wood Hill Rd, Rockville, MD 20850",
     "lat": 39.0766,
     "lng": -77.1514,
-    "hours": "Tuesdays 10:00am \u2013 1:00pm \u00b7 Thursdays 4:00pm \u2013 7:00pm",
+    "hours": "Tuesdays 10:00am – 1:00pm · Thursdays 4:00pm – 7:00pm",
     "eligibility": "Montgomery and Prince George's County residents.",
     "food_types": [
       "kosher food",
@@ -347,12 +304,82 @@
     "extracted_at": "2026-04-13T00:00:00Z"
   },
   {
+    "entity_type": "org",
+    "name": "Community Pantry @ Silver Spring Civic Center",
+    "address": "1 Veterans Pl, Silver Spring, MD 20910",
+    "hours": "Tue & Thu 10am–4pm",
+    "eligibility": null,
+    "food_types": [
+      "canned food",
+      "pasta",
+      "baby formula"
+    ],
+    "languages_served": [
+      "en"
+    ],
+    "contact": "pantry@sscc.org",
+    "description": "Community pantry accepting donations",
+    "confidence_score": 0.85,
+    "source_url": "bot-submission",
+    "source": "community",
+    "extracted_at": "2026-04-13T16:53:39.450Z",
+    "submitted_via": "telegram",
+    "submitted_at": "2026-04-13T17:34:18.910Z",
+    "lat": 38.9974993,
+    "lng": -77.0244956,
+    "status": "active",
+    "validated_at": "2026-04-13T20:41:57.798Z"
+  },
+  {
     "entity_type": "opportunity",
-    "name": "Food Pantry Volunteer \u2014 Bread for the City",
+    "name": "Food Sorting Volunteer — Capital Area Food Bank",
+    "address": "4900 Puerto Rico Ave NE, Washington, DC 20017",
+    "lat": 38.9323,
+    "lng": -76.9888,
+    "hours": "Tuesdays and Saturdays 8:00am – 11:00am",
+    "eligibility": "Open to all. Groups welcome.",
+    "food_types": [],
+    "languages_served": [
+      "en",
+      "es"
+    ],
+    "contact": "volunteer@capitalareafoodbank.org",
+    "description": "Help sort and pack food donations at the warehouse. No experience needed.",
+    "confidence_score": 0.93,
+    "source": "web",
+    "status": "active",
+    "source_url": "https://www.capitalareafoodbank.org/volunteer",
+    "extracted_at": "2026-04-13T00:00:00Z"
+  },
+  {
+    "entity_type": "opportunity",
+    "name": "Mobile Pantry Driver — DC Central Kitchen",
+    "address": "425 2nd St NW, Washington, DC 20001",
+    "lat": 38.9003,
+    "lng": -77.013,
+    "hours": "Weekday mornings 6:30am – 10:00am",
+    "eligibility": "Must have valid driver's license.",
+    "food_types": [],
+    "languages_served": [
+      "en"
+    ],
+    "contact": "(202) 234-0707",
+    "description": "Drive food delivery vans to shelters, schools, and community sites across DC.",
+    "confidence_score": 0.89,
+    "source": "community",
+    "status": "active",
+    "source_url": "https://www.dccentralkitchen.org/volunteer",
+    "submitted_via": "telegram_dm",
+    "original_message": "Hey, DC Central Kitchen urgently needs mobile pantry drivers on weekday mornings 6:30-10am. Must have valid driver's license. Great opportunity to serve DC communities directly. Call (202) 234-0707 to sign up.",
+    "extracted_at": "2026-04-12T10:00:00Z"
+  },
+  {
+    "entity_type": "opportunity",
+    "name": "Food Pantry Volunteer — Bread for the City",
     "address": "1525 7th St NW, Washington, DC 20001",
     "lat": 38.9094,
     "lng": -77.0215,
-    "hours": "Tuesdays & Thursdays 10:00am \u2013 1:00pm",
+    "hours": "Tuesdays & Thursdays 10:00am – 1:00pm",
     "eligibility": "Ages 16+. No experience needed.",
     "food_types": [],
     "languages_served": [
@@ -375,18 +402,18 @@
   },
   {
     "entity_type": "opportunity",
-    "name": "Meal Prep & Kitchen Assistant \u2014 Martha's Table",
+    "name": "Meal Prep & Kitchen Assistant — Martha's Table",
     "address": "2114 14th St NW, Washington, DC 20009",
     "lat": 38.9197,
     "lng": -77.0326,
-    "hours": "Weekdays 7:30am \u2013 11:30am",
+    "hours": "Weekdays 7:30am – 11:30am",
     "eligibility": "Ages 14+ with adult supervision. Groups welcome.",
     "food_types": [],
     "languages_served": [
       "en",
       "es"
     ],
-    "contact": "(202) 328-6608 \u00b7 volunteer@marthastable.org",
+    "contact": "(202) 328-6608 · volunteer@marthastable.org",
     "description": "Prepare and serve hot meals in Martha's Kitchen. One of DC's most impactful volunteer experiences.",
     "confidence_score": 0.96,
     "source": "mock",
@@ -401,11 +428,11 @@
   },
   {
     "entity_type": "opportunity",
-    "name": "Meals on Wheels Driver \u2014 Montgomery County",
+    "name": "Meals on Wheels Driver — Montgomery County",
     "address": "6 Metropolitan Grove Rd, Gaithersburg, MD 20878",
     "lat": 39.1434,
     "lng": -77.2136,
-    "hours": "Weekdays 10:00am \u2013 1:00pm (2\u20133 hrs per shift)",
+    "hours": "Weekdays 10:00am – 1:00pm (2–3 hrs per shift)",
     "eligibility": "Must have valid driver's license and reliable vehicle.",
     "food_types": [],
     "languages_served": [
@@ -428,18 +455,18 @@
   },
   {
     "entity_type": "opportunity",
-    "name": "Warehouse & Packing Volunteer \u2014 Manna Food Center",
+    "name": "Warehouse & Packing Volunteer — Manna Food Center",
     "address": "9311 Gaither Rd, Gaithersburg, MD 20877",
     "lat": 39.1541,
     "lng": -77.2271,
-    "hours": "Mon, Wed, Fri 9:00am \u2013 12:00pm \u00b7 Sat 9:00am \u2013 1:00pm",
+    "hours": "Mon, Wed, Fri 9:00am – 12:00pm · Sat 9:00am – 1:00pm",
     "eligibility": "Ages 14+. Groups and families welcome.",
     "food_types": [],
     "languages_served": [
       "en",
       "es"
     ],
-    "contact": "(301) 424-1130 \u00b7 volunteer@mannafood.org",
+    "contact": "(301) 424-1130 · volunteer@mannafood.org",
     "description": "Sort and pack food donations, stock shelves, and assist with mobile pantry loading. Great for groups.",
     "confidence_score": 0.95,
     "source": "mock",
@@ -454,11 +481,11 @@
   },
   {
     "entity_type": "opportunity",
-    "name": "Community Fridge Steward \u2014 Shaw DC",
+    "name": "Community Fridge Steward — Shaw DC",
     "address": "1800 7th St NW, Washington, DC 20001",
     "lat": 38.9118,
     "lng": -77.0213,
-    "hours": "Flexible \u2014 1\u20132 hrs/week at a time that suits you",
+    "hours": "Flexible — 1–2 hrs/week at a time that suits you",
     "eligibility": "All welcome. Solo or paired shifts available.",
     "food_types": [],
     "languages_served": [
@@ -471,7 +498,7 @@
     "source": "community",
     "submitted_via": "telegram_group",
     "telegram_group_name": "DC Food Donation",
-    "original_message": "Hey everyone! We need stewards for the Shaw community fridge at 7th & S St. Just 1-2 hrs/week to restock and clean. Super easy and rewarding. DM shawfridge@gmail.com if interested \ud83e\udd57",
+    "original_message": "Hey everyone! We need stewards for the Shaw community fridge at 7th & S St. Just 1-2 hrs/week to restock and clean. Super easy and rewarding. DM shawfridge@gmail.com if interested 🥗",
     "commitment": "flexible",
     "skills_needed": [
       "none required"
