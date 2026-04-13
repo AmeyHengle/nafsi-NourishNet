@@ -4,6 +4,16 @@ import { useData } from '../hooks/useData'
 import Navbar from '../components/Navbar'
 import CommunityBadge from '../components/CommunityBadge'
 
+function openExternal(url) {
+  const a = document.createElement('a')
+  a.href = url
+  a.target = '_blank'
+  a.rel = 'noopener noreferrer'
+  document.body.appendChild(a)
+  a.click()
+  document.body.removeChild(a)
+}
+
 const BOT_USERNAME = 'nourishnet_bot'
 const TELEGRAM_URL = `https://t.me/${BOT_USERNAME}`
 
@@ -58,17 +68,16 @@ export default function Submit() {
 
         {/* CTA buttons */}
         <div className="flex flex-col sm:flex-row gap-3">
-          <a
-            href={TELEGRAM_URL}
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            onClick={() => openExternal(TELEGRAM_URL)}
             className="flex-1 flex items-center justify-center gap-2 py-3 rounded-xl
-                       text-white text-sm font-semibold transition-opacity hover:opacity-90"
+                       text-white text-sm font-semibold transition-opacity hover:opacity-90
+                       cursor-pointer"
             style={{ background: '#2AABEE' }}
           >
             <TelegramIcon size={18} />
             @{BOT_USERNAME}
-          </a>
+          </button>
           <button
             onClick={() => navigate(-1)}
             className="flex-1 btn-secondary py-3 text-sm"

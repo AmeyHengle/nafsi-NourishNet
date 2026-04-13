@@ -5,6 +5,19 @@ import SearchBar from '../components/SearchBar'
 import LanguageToggle from '../components/LanguageToggle'
 import { useData } from '../hooks/useData'
 
+// ── Reliable external link opener ───────────────────────────────
+// Using window.open avoids HashRouter interference and popup-blocker
+// issues that can affect target="_blank" on GitHub Pages.
+function openExternal(url) {
+  const a = document.createElement('a')
+  a.href = url
+  a.target = '_blank'
+  a.rel = 'noopener noreferrer'
+  document.body.appendChild(a)
+  a.click()
+  document.body.removeChild(a)
+}
+
 // ── Bot config ───────────────────────────────────────────────────
 const BOT_USERNAME = 'nourishnet_bot'
 const TELEGRAM_URL = `https://t.me/${BOT_USERNAME}`
@@ -132,12 +145,13 @@ export default function Landing() {
               </div>
             </div>
             <div className="flex gap-2">
-              <a href={TELEGRAM_URL} target="_blank" rel="noopener noreferrer"
-                 className="flex-1 text-white text-xs font-semibold py-2.5 px-3 rounded-xl
-                            text-center transition-opacity hover:opacity-90"
-                 style={{ background: '#2AABEE' }}>
+              <button
+                onClick={() => openExternal(TELEGRAM_URL)}
+                className="flex-1 text-white text-xs font-semibold py-2.5 px-3 rounded-xl
+                           text-center transition-opacity hover:opacity-90 cursor-pointer"
+                style={{ background: '#2AABEE' }}>
                 @{BOT_USERNAME}
-              </a>
+              </button>
               <button onClick={() => navigate('/submit')}
                       className="flex-1 border border-sky-200 text-sky-600 hover:bg-sky-100
                                  text-xs font-semibold py-2.5 px-3 rounded-xl transition-colors">
@@ -286,13 +300,15 @@ export default function Landing() {
                 ))}
               </div>
 
-              <a href={TELEGRAM_URL} target="_blank" rel="noopener noreferrer"
-                 className="mt-6 flex items-center justify-center gap-2 w-full py-3 rounded-xl
-                            text-white text-sm font-semibold transition-opacity hover:opacity-90"
-                 style={{ background: '#2AABEE' }}>
+              <button
+                onClick={() => openExternal(TELEGRAM_URL)}
+                className="mt-6 flex items-center justify-center gap-2 w-full py-3 rounded-xl
+                           text-white text-sm font-semibold transition-opacity hover:opacity-90
+                           cursor-pointer"
+                style={{ background: '#2AABEE' }}>
                 <TelegramIcon size={18} />
                 Open @{BOT_USERNAME}
-              </a>
+              </button>
             </div>
 
             {/* Path 2 — Group monitoring */}
