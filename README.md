@@ -16,7 +16,7 @@ NourishNet aggregates food assistance information from dozens of community websi
 - **Donors** — discover local food banks and organizations matching their donation preferences
 - **Volunteers** — browse opportunities sorted by proximity and urgency
 
-A Telegram bot (`@nafsi_nourishnet_bot`) allows community organizers to submit events in plain text or via a photo flyer. Submissions are reviewed, geocoded, and merged into the live dataset within 6 hours.
+A Telegram bot (`@nourishnet_bot`) allows community organizers to submit events in plain text or via a photo flyer. Submissions are reviewed, geocoded, and merged into the live dataset within 6 hours.
 
 ---
 
@@ -141,7 +141,7 @@ All open source — no proprietary cloud services.
 
 ## Telegram bot
 
-Send a message to `@nafsi_nourishnet_bot` describing a food event. The bot will extract structured details, ask you to confirm, and add the event to NourishNet within 6 hours.
+Send a message to `@nourishnet_bot` describing a food event. The bot will extract structured details, ask you to confirm, and add the event to NourishNet within 6 hours.
 
 Accepted input: plain text descriptions, forwarded messages, or photo flyers.
 

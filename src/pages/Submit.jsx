@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar'
 import CommunityBadge from '../components/CommunityBadge'
 
 // Replace with your actual bot username after creating it with BotFather
-const BOT_USERNAME = 'nafsi_nourishnet_bot'
+const BOT_USERNAME = 'nourishnet_bot'
 const TELEGRAM_URL = `https://t.me/${BOT_USERNAME}`
 
 const STEPS = ['step1', 'step2', 'step3']

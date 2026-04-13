@@ -44,7 +44,7 @@ const ROLES = [
   },
 ]
 
-const BOT_USERNAME = 'nafsi_nourishnet_bot'
+const BOT_USERNAME = 'nourishnet_bot'
 const TELEGRAM_URL = `https://t.me/${BOT_USERNAME}`
 
 export default function Landing() {
