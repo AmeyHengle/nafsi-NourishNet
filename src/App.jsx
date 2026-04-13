@@ -7,6 +7,7 @@ import Families from './pages/Families'
 import Donors from './pages/Donors'
 import Volunteers from './pages/Volunteers'
 import Submit from './pages/Submit'
+import HowItWorks from './pages/HowItWorks'
 
 // ── Language context ────────────────────────────────────────────
 const LangContext = createContext()
@@ -34,12 +35,13 @@ export default function App() {
       <LocationContext.Provider value={{ userLocation, setUserLocation }}>
         <div className="min-h-screen bg-gray-50 text-gray-900">
           <Routes>
-            <Route path="/"           element={<Landing />} />
-            <Route path="/families"   element={<Families />} />
-            <Route path="/donors"     element={<Donors />} />
-            <Route path="/volunteers" element={<Volunteers />} />
-            <Route path="/submit"     element={<Submit />} />
-            <Route path="*"           element={<Navigate to="/" replace />} />
+            <Route path="/"              element={<Landing />} />
+            <Route path="/families"      element={<Families />} />
+            <Route path="/donors"        element={<Donors />} />
+            <Route path="/volunteers"    element={<Volunteers />} />
+            <Route path="/submit"        element={<Submit />} />
+            <Route path="/how-it-works"  element={<HowItWorks />} />
+            <Route path="*"              element={<Navigate to="/" replace />} />
           </Routes>
         </div>
       </LocationContext.Provider>

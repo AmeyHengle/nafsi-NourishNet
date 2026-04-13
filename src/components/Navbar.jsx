@@ -28,6 +28,12 @@ export default function Navbar({ showBack = true }) {
 
       <div className="flex items-center gap-3">
         <button
+          onClick={() => navigate('/how-it-works')}
+          className="text-sm text-gray-500 hover:text-teal-600 font-medium hidden sm:block transition-colors"
+        >
+          How it works
+        </button>
+        <button
           onClick={() => navigate('/submit')}
           className="text-sm text-teal-600 hover:text-teal-700 font-medium hidden sm:block"
         >

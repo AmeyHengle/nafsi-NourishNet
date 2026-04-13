@@ -170,8 +170,16 @@ export default function Landing() {
             <h1 className="text-4xl font-bold text-gray-900 leading-tight mb-3">{t.landing.hero}</h1>
             <p className="text-gray-500 text-lg leading-relaxed mb-10">{t.landing.sub}</p>
 
-            <div className="bg-white rounded-2xl shadow-md border border-gray-100 p-6 mb-8">
+            <div className="bg-white rounded-2xl shadow-md border border-gray-100 p-6 mb-4">
               <SearchBar onLocation={loc => { setUserLocation(loc); navigate('/families') }} />
+            </div>
+
+            <div className="text-center mb-8">
+              <button onClick={() => navigate('/how-it-works')}
+                      className="text-sm text-gray-400 hover:text-teal-600 transition-colors inline-flex items-center gap-1">
+                <span>New here?</span>
+                <span className="underline underline-offset-2">See how it works →</span>
+              </button>
             </div>
 
             {(stats.events + stats.orgs + stats.opportunities) > 0 && (
