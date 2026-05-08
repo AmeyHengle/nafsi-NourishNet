@@ -3,28 +3,28 @@
     "url": "https://www.capitalareafoodbank.org/find-food/",
     "label": "Capital Area Food Bank — find food",
     "status": "active",
-    "last_visited": "2026-05-08T06:26:43.115Z",
+    "last_visited": "2026-05-08T07:29:02.565Z",
     "content_hash": "b16ad3a08c0a11a978c5669e167db2d2"
   },
   {
     "url": "https://www.marylandfoodbank.org/find-food/",
     "label": "Maryland Food Bank — find food",
     "status": "failed",
-    "last_visited": "2026-05-08T06:26:44.771Z",
+    "last_visited": "2026-05-08T07:29:05.558Z",
     "content_hash": null
   },
   {
     "url": "https://www.feedingamerica.org/find-your-local-foodbank",
     "label": "Feeding America — local food bank locator",
     "status": "active",
-    "last_visited": "2026-05-08T06:26:46.597Z",
+    "last_visited": "2026-05-08T07:29:07.292Z",
     "content_hash": "289ffae55b349e6d1cc0e26d0b01218e"
   },
   {
     "url": "https://dhs.dc.gov/service/food-assistance",
     "label": "DC DHS — food assistance programs",
     "status": "failed",
-    "last_visited": "2026-05-08T06:26:51.763Z",
+    "last_visited": "2026-05-08T07:29:11.560Z",
     "content_hash": "7d6873aff1d2d05be969a9e7989a47bf"
   },
   {
@@ -33,7 +33,7 @@
     "status": "active",
     "discovered_from": "https://dhs.dc.gov/service/food-assistance",
     "discovered_at": "2026-04-13T13:18:18.853Z",
-    "last_visited": "2026-05-08T06:26:54.975Z",
+    "last_visited": "2026-05-08T07:29:14.592Z",
     "content_hash": "5c6eebb134feef99ebe1cb10ed62a65b"
   }
 ]
