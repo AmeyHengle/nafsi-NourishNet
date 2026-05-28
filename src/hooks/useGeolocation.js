@@ -7,7 +7,7 @@ export function useGeolocation() {
 
   function request() {
     if (!navigator.geolocation) {
-      setError('Geolocation not supported')
+      setError('Geolocation is not supported')
       return
     }
     setLoading(true)
