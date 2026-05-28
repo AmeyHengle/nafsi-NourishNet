@@ -24,7 +24,7 @@ nafsi-NourishNet/
 
 - [Node.js 20+](https://nodejs.org/)
 - npm 9+
-- A [Groq API key](https://console.groq.com/) (free — used by the data pipeline)
+- A [Groq API key](https://console.groq.com/) (free - used by the data pipeline)
 - A [Telegram bot token](https://t.me/BotFather) (for the community submission bot)
 - A [GitHub Personal Access Token](https://github.com/settings/tokens) with `public_repo` scope (used by the pipeline to commit back to the repo)
 
@@ -41,7 +41,7 @@ cd nafsi-NourishNet
 
 ## 2. Install dependencies
 
-The project has two separate `package.json` files — one for the React app (root) and one for the Node.js pipeline (`pipeline/`). Install both independently.
+The project has two separate `package.json` files - one for the React app (root) and one for the Node.js pipeline (`pipeline/`). Install both independently.
 
 ```bash
 # React app (from repo root)
@@ -59,7 +59,7 @@ cd ..
 
 ### React app
 
-The React app has **no required environment variables**. It reads from `public/data.json` at runtime — no API keys needed in the frontend.
+The React app has **no required environment variables**. It reads from `public/data.json` at runtime - no API keys needed in the frontend.
 
 ### Data pipeline (local only)
 
@@ -72,10 +72,10 @@ cp .env.example pipeline/.env
 Open `pipeline/.env` and fill in the following:
 
 ```env
-# Groq API key — get yours free at https://console.groq.com/
+# Groq API key - get yours free at https://console.groq.com/
 GROQ_API_KEY=your_groq_api_key_here
 
-# Telegram bot token — get from @BotFather on Telegram
+# Telegram bot token - get from @BotFather on Telegram
 TELEGRAM_BOT_TOKEN=your_telegram_bot_token_here
 
 # GitHub Personal Access Token with public_repo scope
@@ -99,7 +99,7 @@ npm run dev
 
 Open [http://localhost:5173/nafsi-NourishNet/](http://localhost:5173/nafsi-NourishNet/)
 
-The app loads `public/data.json` on startup. I've included seed data with real DC/MD entries so the map and all three role views are populated immediately — no pipeline run required.
+The app loads `public/data.json` on startup. I've included seed data with real DC/MD entries so the map and all three role views are populated immediately - no pipeline run required.
 
 To build for production locally:
 
@@ -163,7 +163,7 @@ Each run fetches updates since the last processed message (tracked in `public/bo
 
 ### Deploy
 
-Push to `main` — the deploy workflow triggers automatically:
+Push to `main` - the deploy workflow triggers automatically:
 
 ```bash
 git add .
@@ -221,7 +221,7 @@ Once secrets are set and everything is deployed, three workflows run automatical
 
 ## 10. Kiro prompt reproduction
 
-To reproduce the React application using [Kiro](https://kiro.dev/), follow the prompts in [`PROMPTS.md`](./PROMPTS.md) sequentially. Note that the data pipeline and Telegram bot (`pipeline/` folder) were built outside Kiro using Node.js and must be added manually — the PROMPTS.md file explains exactly which files to add and where.
+To reproduce the React application using [Kiro](https://kiro.dev/), follow the prompts in [`PROMPTS.md`](./PROMPTS.md) sequentially. Note that the data pipeline and Telegram bot (`pipeline/` folder) were built outside Kiro using Node.js and must be added manually - the PROMPTS.md file explains exactly which files to add and where.
 
 ---
 
@@ -232,7 +232,7 @@ To reproduce the React application using [Kiro](https://kiro.dev/), follow the p
 | Frontend | [React 18](https://react.dev/), [Vite](https://vitejs.dev/), [Tailwind CSS](https://tailwindcss.com/) |
 | Map | [Leaflet.js](https://leafletjs.com/) + [react-leaflet](https://react-leaflet.js.org/) + [CartoDB Positron](https://carto.com/basemaps/) tiles |
 | Routing | [React Router v6](https://reactrouter.com/) (HashRouter for GitHub Pages) |
-| LLM extraction | [Groq API](https://console.groq.com/) — Llama 3.1 70B |
+| LLM extraction | [Groq API](https://console.groq.com/) - Llama 3.1 70B |
 | Geocoding | [Nominatim](https://nominatim.openstreetmap.org/) (OpenStreetMap, free, no key) |
 | ZIP lookup | [Zippopotam.us](https://api.zippopotam.us/) (free, no key) |
 | Bot | [Telegram Bot API](https://core.telegram.org/bots/api) (polling via GitHub Actions) |
