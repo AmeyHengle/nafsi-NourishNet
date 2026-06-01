@@ -82,6 +82,27 @@
     "extracted_at": "2026-04-13T00:00:00Z"
   },
   {
+    "entity_type": "event",
+    "name": "Season's Feedings",
+    "address": null,
+    "hours": null,
+    "eligibility": null,
+    "food_types": null,
+    "languages_served": [
+      "en"
+    ],
+    "contact": null,
+    "description": "Holiday food drive",
+    "confidence_score": 0.45,
+    "source_url": "https://www.capitalareafoodbank.org/",
+    "source": "web",
+    "extracted_at": "2026-06-01T17:37:01.491Z",
+    "lat": null,
+    "lng": null,
+    "status": "ongoing",
+    "validated_at": "2026-06-01T17:38:46.237Z"
+  },
+  {
     "entity_type": "org",
     "name": "Capital Area Food Bank",
     "address": "4900 Puerto Rico Ave NE, Washington, DC 20017",
@@ -94,19 +115,35 @@
       "canned goods",
       "frozen food",
       "dairy",
-      "bread"
+      "bread",
+      "general food",
+      "nutritious meals",
+      "groceries",
+      "meals",
+      "fruits",
+      "vegetables"
     ],
     "languages_served": [
       "en",
       "es"
     ],
-    "contact": "(202) 526-5344",
+    "contact": "https://www.capitalareafoodbank.org/",
     "description": "The largest food bank in the DC region, distributing millions of meals annually.",
     "confidence_score": 0.98,
     "source": "web",
     "status": "active",
     "source_url": "https://www.capitalareafoodbank.org",
-    "extracted_at": "2026-04-13T00:00:00Z"
+    "extracted_at": "2026-04-13T00:00:00Z",
+    "source_urls": [
+      "https://www.capitalareafoodbank.org",
+      "https://www.capitalareafoodbank.org/",
+      "https://www.capitalareafoodbank.org/hunger-in-our-region/",
+      "https://www.capitalareafoodbank.org/what-we-do/",
+      "https://www.capitalareafoodbank.org/what-we-do/direct-food-distribution-programs/",
+      "https://www.capitalareafoodbank.org/what-we-do/nutrition-and-wellness/",
+      "https://www.capitalareafoodbank.org/what-we-do/farms-and-gardening/"
+    ],
+    "merged": true
   },
   {
     "entity_type": "org",

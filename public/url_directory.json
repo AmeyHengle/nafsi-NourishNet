@@ -3,28 +3,28 @@
     "url": "https://www.capitalareafoodbank.org/find-food/",
     "label": "Capital Area Food Bank — find food",
     "status": "active",
-    "last_visited": "2026-06-01T14:45:39.965Z",
+    "last_visited": "2026-06-01T17:36:45.707Z",
     "content_hash": "29b817632f50f0dd1a3dec554f622ecd"
   },
   {
     "url": "https://www.marylandfoodbank.org/find-food/",
     "label": "Maryland Food Bank — find food",
     "status": "failed",
-    "last_visited": "2026-06-01T14:45:46.466Z",
+    "last_visited": "2026-06-01T17:36:49.597Z",
     "content_hash": null
   },
   {
     "url": "https://www.feedingamerica.org/find-your-local-foodbank",
     "label": "Feeding America — local food bank locator",
     "status": "active",
-    "last_visited": "2026-06-01T14:45:48.384Z",
+    "last_visited": "2026-06-01T17:36:51.469Z",
     "content_hash": "289ffae55b349e6d1cc0e26d0b01218e"
   },
   {
     "url": "https://dhs.dc.gov/service/food-assistance",
     "label": "DC DHS — food assistance programs",
     "status": "failed",
-    "last_visited": "2026-06-01T14:45:53.579Z",
+    "last_visited": "2026-06-01T17:36:55.895Z",
     "content_hash": "7d6873aff1d2d05be969a9e7989a47bf"
   },
   {
@@ -33,96 +33,546 @@
     "status": "active",
     "discovered_from": "https://dhs.dc.gov/service/food-assistance",
     "discovered_at": "2026-04-13T13:18:18.853Z",
-    "last_visited": "2026-06-01T14:45:56.562Z",
+    "last_visited": "2026-06-01T17:36:58.954Z",
     "content_hash": "5c6eebb134feef99ebe1cb10ed62a65b"
   },
   {
     "url": "https://www.capitalareafoodbank.org/",
     "label": "Food Bank Website",
-    "status": "discovered",
+    "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/find-food/",
     "discovered_at": "2026-06-01T14:45:39.965Z",
-    "last_visited": null,
-    "content_hash": null
+    "last_visited": "2026-06-01T17:37:03.365Z",
+    "content_hash": "0ed401019f627099bd4c7738d0dc3c84"
   },
   {
     "url": "https://www.feedingamerica.org/",
     "label": "National Food Bank Network",
-    "status": "discovered",
+    "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/find-food/",
     "discovered_at": "2026-06-01T14:45:39.965Z",
-    "last_visited": null,
-    "content_hash": null
+    "last_visited": "2026-06-01T17:37:08.101Z",
+    "content_hash": "2267e6778bfca56bf7d94c66272afe69"
   },
   {
     "url": "https://give.capitalareafoodbank.org/give/630514/",
     "label": "Donation Page",
-    "status": "discovered",
+    "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/find-food/",
     "discovered_at": "2026-06-01T14:45:39.965Z",
-    "last_visited": null,
+    "last_visited": "2026-06-01T17:37:39.836Z",
     "content_hash": null
   },
   {
     "url": "https://www.capitalareafoodbank.org/hunger-in-our-region/",
     "label": "Hunger Resource Page",
-    "status": "discovered",
+    "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/find-food/",
     "discovered_at": "2026-06-01T14:45:39.965Z",
-    "last_visited": null,
-    "content_hash": null
+    "last_visited": "2026-06-01T17:37:44.448Z",
+    "content_hash": "c179b7c678b0b76bd429d86056d8e383"
   },
   {
     "url": "https://www.capitalareafoodbank.org/what-we-do/",
     "label": "Food Assistance Programs",
-    "status": "discovered",
+    "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/find-food/",
     "discovered_at": "2026-06-01T14:45:39.965Z",
-    "last_visited": null,
-    "content_hash": null
+    "last_visited": "2026-06-01T17:37:49.527Z",
+    "content_hash": "5b3469908c288a5f6d817e859aa977f9"
   },
   {
     "url": "https://www.capitalareafoodbank.org/what-we-do/direct-food-distribution-programs/",
     "label": "Food Distribution Programs",
-    "status": "discovered",
+    "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/find-food/",
     "discovered_at": "2026-06-01T14:45:39.965Z",
-    "last_visited": null,
-    "content_hash": null
+    "last_visited": "2026-06-01T17:38:01.386Z",
+    "content_hash": "edb609f418ccc807bc200ddff76ef85c"
   },
   {
     "url": "https://www.capitalareafoodbank.org/what-we-do/food-plus-partnerships/",
     "label": "Food Assistance Partnerships",
-    "status": "discovered",
+    "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/find-food/",
     "discovered_at": "2026-06-01T14:45:39.965Z",
-    "last_visited": null,
-    "content_hash": null
+    "last_visited": "2026-06-01T17:38:12.709Z",
+    "content_hash": "3128548d80e0f0666aeb5cd9b2307112"
   },
   {
     "url": "https://www.capitalareafoodbank.org/what-we-do/advocacy-public-policy/",
     "label": "Related Advocacy",
-    "status": "discovered",
+    "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/find-food/",
     "discovered_at": "2026-06-01T14:45:39.965Z",
-    "last_visited": null,
-    "content_hash": null
+    "last_visited": "2026-06-01T17:38:22.290Z",
+    "content_hash": "c49aa165d618c3f8dce1dcd3236f4836"
   },
   {
     "url": "https://www.capitalareafoodbank.org/what-we-do/nutrition-and-wellness/",
     "label": "Related Nutrition",
-    "status": "discovered",
+    "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/find-food/",
     "discovered_at": "2026-06-01T14:45:39.965Z",
-    "last_visited": null,
-    "content_hash": null
+    "last_visited": "2026-06-01T17:38:32.746Z",
+    "content_hash": "019b749ed9c8e2731450c6efc9eb1d0e"
   },
   {
     "url": "https://www.capitalareafoodbank.org/what-we-do/farms-and-gardening/",
     "label": "Related Gardening",
-    "status": "discovered",
+    "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/find-food/",
     "discovered_at": "2026-06-01T14:45:39.965Z",
+    "last_visited": "2026-06-01T17:38:44.734Z",
+    "content_hash": "adbf9e323b7c6058e72a577adc0c3920"
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/impact/",
+    "label": "Food bank impact page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/",
+    "discovered_at": "2026-06-01T17:37:03.364Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/how-to-help/",
+    "label": "Food bank help page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/",
+    "discovered_at": "2026-06-01T17:37:03.364Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/donate/",
+    "label": "Food bank donation page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/",
+    "discovered_at": "2026-06-01T17:37:03.364Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/how-to-help/donate-food/",
+    "label": "Food bank food donation page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/",
+    "discovered_at": "2026-06-01T17:37:03.364Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://volunteer.capitalareafoodbank.org/",
+    "label": "Food bank volunteer page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/",
+    "discovered_at": "2026-06-01T17:37:03.364Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/how-to-help/virtual-fundraising/",
+    "label": "Food bank fundraising page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/",
+    "discovered_at": "2026-06-01T17:37:03.364Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/how-to-help/how-to-help-corporate-engagement/",
+    "label": "Food bank corporate engagement page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/",
+    "discovered_at": "2026-06-01T17:37:03.364Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://plan.capitalareafoodbank.org/",
+    "label": "Food bank estate planning page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/",
+    "discovered_at": "2026-06-01T17:37:03.364Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.freewill.com/capitalareafoodbank",
+    "label": "Food bank planned giving page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/",
+    "discovered_at": "2026-06-01T17:37:03.364Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/how-to-help/more-ways-to-help/",
+    "label": "Food bank help page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/",
+    "discovered_at": "2026-06-01T17:37:03.364Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/impact/",
+    "label": "Food bank impact page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/",
+    "discovered_at": "2026-06-01T17:37:49.527Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/how-to-help/",
+    "label": "Food bank help page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/",
+    "discovered_at": "2026-06-01T17:37:49.527Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/donate/",
+    "label": "Food bank donation page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/",
+    "discovered_at": "2026-06-01T17:37:49.527Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/how-to-help/donate-food/",
+    "label": "Food donation page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/",
+    "discovered_at": "2026-06-01T17:37:49.527Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://volunteer.capitalareafoodbank.org/",
+    "label": "Food bank volunteer page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/",
+    "discovered_at": "2026-06-01T17:37:49.527Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/how-to-help/virtual-fundraising/",
+    "label": "Food bank fundraising page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/",
+    "discovered_at": "2026-06-01T17:37:49.527Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/how-to-help/how-to-help-corporate-engagement/",
+    "label": "Food bank corporate engagement page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/",
+    "discovered_at": "2026-06-01T17:37:49.527Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://plan.capitalareafoodbank.org/",
+    "label": "Related nonprofit planning page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/",
+    "discovered_at": "2026-06-01T17:37:49.527Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.freewill.com/capitalareafoodbank",
+    "label": "Related nonprofit fundraising page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/",
+    "discovered_at": "2026-06-01T17:37:49.527Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/how-to-help/more-ways-to-help/",
+    "label": "Food bank help page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/",
+    "discovered_at": "2026-06-01T17:37:49.527Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/impact/",
+    "label": "organization information",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/direct-food-distribution-programs/",
+    "discovered_at": "2026-06-01T17:38:01.386Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/how-to-help/",
+    "label": "support options",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/direct-food-distribution-programs/",
+    "discovered_at": "2026-06-01T17:38:01.386Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/donate/",
+    "label": "donation page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/direct-food-distribution-programs/",
+    "discovered_at": "2026-06-01T17:38:01.386Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/how-to-help/donate-food/",
+    "label": "food donation",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/direct-food-distribution-programs/",
+    "discovered_at": "2026-06-01T17:38:01.386Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://volunteer.capitalareafoodbank.org/",
+    "label": "volunteer portal",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/direct-food-distribution-programs/",
+    "discovered_at": "2026-06-01T17:38:01.386Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/how-to-help/virtual-fundraising/",
+    "label": "fundraising options",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/direct-food-distribution-programs/",
+    "discovered_at": "2026-06-01T17:38:01.386Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/how-to-help/how-to-help-corporate-engagement/",
+    "label": "corporate involvement",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/direct-food-distribution-programs/",
+    "discovered_at": "2026-06-01T17:38:01.386Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://plan.capitalareafoodbank.org/",
+    "label": "planned giving",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/direct-food-distribution-programs/",
+    "discovered_at": "2026-06-01T17:38:01.386Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.freewill.com/capitalareafoodbank",
+    "label": "estate planning tool",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/direct-food-distribution-programs/",
+    "discovered_at": "2026-06-01T17:38:01.386Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/how-to-help/more-ways-to-help/",
+    "label": "additional support",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/direct-food-distribution-programs/",
+    "discovered_at": "2026-06-01T17:38:01.386Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/impact/",
+    "label": "Food bank impact page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/advocacy-public-policy/",
+    "discovered_at": "2026-06-01T17:38:22.289Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/how-to-help/",
+    "label": "Food assistance help page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/advocacy-public-policy/",
+    "discovered_at": "2026-06-01T17:38:22.289Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/donate/",
+    "label": "Food bank donation page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/advocacy-public-policy/",
+    "discovered_at": "2026-06-01T17:38:22.289Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/how-to-help/donate-food/",
+    "label": "Food donation page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/advocacy-public-policy/",
+    "discovered_at": "2026-06-01T17:38:22.289Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://volunteer.capitalareafoodbank.org/",
+    "label": "Food bank volunteer page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/advocacy-public-policy/",
+    "discovered_at": "2026-06-01T17:38:22.289Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/how-to-help/virtual-fundraising/",
+    "label": "Food bank fundraising page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/advocacy-public-policy/",
+    "discovered_at": "2026-06-01T17:38:22.289Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/how-to-help/how-to-help-corporate-engagement/",
+    "label": "Food bank corporate engagement page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/advocacy-public-policy/",
+    "discovered_at": "2026-06-01T17:38:22.289Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://plan.capitalareafoodbank.org/",
+    "label": "Related nonprofit planning page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/advocacy-public-policy/",
+    "discovered_at": "2026-06-01T17:38:22.289Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.freewill.com/capitalareafoodbank",
+    "label": "Related nonprofit fundraising page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/advocacy-public-policy/",
+    "discovered_at": "2026-06-01T17:38:22.289Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/how-to-help/more-ways-to-help/",
+    "label": "Food bank help page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/advocacy-public-policy/",
+    "discovered_at": "2026-06-01T17:38:22.289Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/impact/",
+    "label": "Food bank impact page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/farms-and-gardening/",
+    "discovered_at": "2026-06-01T17:38:44.734Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/how-to-help/",
+    "label": "Food assistance help page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/farms-and-gardening/",
+    "discovered_at": "2026-06-01T17:38:44.734Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/donate/",
+    "label": "Food bank donation page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/farms-and-gardening/",
+    "discovered_at": "2026-06-01T17:38:44.734Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/how-to-help/donate-food/",
+    "label": "Food donation page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/farms-and-gardening/",
+    "discovered_at": "2026-06-01T17:38:44.734Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://volunteer.capitalareafoodbank.org/",
+    "label": "Food bank volunteer page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/farms-and-gardening/",
+    "discovered_at": "2026-06-01T17:38:44.734Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/how-to-help/virtual-fundraising/",
+    "label": "Food bank fundraising page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/farms-and-gardening/",
+    "discovered_at": "2026-06-01T17:38:44.734Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/how-to-help/how-to-help-corporate-engagement/",
+    "label": "Food bank corporate engagement page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/farms-and-gardening/",
+    "discovered_at": "2026-06-01T17:38:44.734Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://plan.capitalareafoodbank.org/",
+    "label": "Nonprofit estate planning",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/farms-and-gardening/",
+    "discovered_at": "2026-06-01T17:38:44.734Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.freewill.com/capitalareafoodbank",
+    "label": "Nonprofit fundraising partner",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/farms-and-gardening/",
+    "discovered_at": "2026-06-01T17:38:44.734Z",
+    "last_visited": null,
+    "content_hash": null
+  },
+  {
+    "url": "https://www.capitalareafoodbank.org/how-to-help/more-ways-to-help/",
+    "label": "Food bank help page",
+    "status": "discovered",
+    "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/farms-and-gardening/",
+    "discovered_at": "2026-06-01T17:38:44.734Z",
     "last_visited": null,
     "content_hash": null
   }
