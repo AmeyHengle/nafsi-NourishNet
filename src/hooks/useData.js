@@ -1,6 +1,5 @@
 import { useState, useEffect, useMemo } from 'react'
 import { distanceMiles } from '../utils/distance'
-import { fetchCafbEvents } from '../data/cafb'
 
 export function useData() {
   const [raw, setRaw] = useState([])
@@ -12,16 +11,18 @@ export function useData() {
     fetch(`${import.meta.env.BASE_URL}data.json`)
       .then(r => { if (!r.ok) throw new Error('Failed to load data'); return r.json() })
       .then(d => {
-        const local = Array.isArray(d) ? d : []
-        // Show local data immediately so the UI is not blocked on the live API
-        setRaw(local)
+        const entries = Array.isArray(d) ? d : []
+        // Normalise: destructuring defaults (= []) don't fire for null, only undefined.
+        // Any field that arrived as null becomes [] so .length/.map never crashes.
+        const normalised = entries.map(e => ({
+          ...e,
+          food_types:       e.food_types       ?? [],
+          current_needs:    e.current_needs     ?? [],
+          skills_needed:    e.skills_needed     ?? [],
+          languages_served: e.languages_served  ?? [],
+        }))
+        setRaw(normalised)
         setLoading(false)
-        // Fetch live CAFB sites in the background and merge when ready
-        fetchCafbEvents().then(cafbEvents => {
-          if (cafbEvents.length > 0) {
-            setRaw(prev => [...prev, ...cafbEvents])
-          }
-        })
       })
       .catch(e => { setError(e.message); setLoading(false) })
   }, [])
