@@ -27,36 +27,6 @@
   },
   {
     "entity_type": "event",
-    "name": "Kingdom Life Church Food Giveaway",
-    "address": "4321 Sheriff Rd NE, Washington, DC 20019",
-    "lat": 38.8968,
-    "lng": -76.9432,
-    "hours": "Thursdays 11:00am – 3:00pm",
-    "eligibility": "Open to all DC residents. No paperwork needed.",
-    "food_types": [
-      "fresh vegetables",
-      "fruit",
-      "rice",
-      "beans",
-      "baby formula"
-    ],
-    "languages_served": [
-      "en",
-      "es"
-    ],
-    "contact": "(202) 555-0147",
-    "description": "Community food giveaway every Thursday. Spanish speakers welcome.",
-    "confidence_score": 0.91,
-    "source": "community",
-    "status": "ongoing",
-    "source_url": null,
-    "submitted_via": "telegram_group",
-    "telegram_group_name": "DC Community Food Network",
-    "original_message": "📢 COMMUNITY ALERT 📢\n\nFOOD GIVEAWAY — Thursdays 11am-3pm\n📍 Kingdom Life Church, 4321 Sheriff Rd NE, Washington DC 20019\n\nFresh vegetables, fruit, rice, beans, baby formula. Open to ALL families. No paperwork. Se habla español. Contact: (202) 555-0147",
-    "extracted_at": "2026-04-12T10:00:00Z"
-  },
-  {
-    "entity_type": "event",
     "name": "Hyattsville Community Pantry Pop-Up",
     "address": "4310 Gallatin St, Hyattsville, MD 20781",
     "lat": 38.9548,
@@ -131,6 +101,57 @@
     "status": "active",
     "source_url": "https://www.dccentralkitchen.org",
     "extracted_at": "2026-04-13T00:00:00Z"
+  },
+  {
+    "entity_type": "opportunity",
+    "name": "Food Sorting Volunteer — Capital Area Food Bank",
+    "address": "4900 Puerto Rico Ave NE, Washington, DC 20017",
+    "lat": 38.9323,
+    "lng": -76.9888,
+    "hours": "Tuesdays and Saturdays 8:00am – 11:00am",
+    "eligibility": "Open to all. Groups welcome.",
+    "food_types": [],
+    "languages_served": [
+      "en",
+      "es"
+    ],
+    "contact": "volunteer@capitalareafoodbank.org",
+    "description": "Help sort and pack food donations at the warehouse. No experience needed.",
+    "confidence_score": 0.93,
+    "source": "web",
+    "status": "active",
+    "source_url": "https://www.capitalareafoodbank.org/volunteer",
+    "extracted_at": "2026-04-13T00:00:00Z"
+  },
+  {
+    "entity_type": "event",
+    "name": "Kingdom Life Church Food Giveaway",
+    "address": "4321 Sheriff Rd NE, Washington, DC 20019",
+    "lat": 38.8968,
+    "lng": -76.9432,
+    "hours": "Thursdays 11:00am – 3:00pm",
+    "eligibility": "Open to all DC residents. No paperwork needed.",
+    "food_types": [
+      "fresh vegetables",
+      "fruit",
+      "rice",
+      "beans",
+      "baby formula"
+    ],
+    "languages_served": [
+      "en",
+      "es"
+    ],
+    "contact": "(202) 555-0147",
+    "description": "Community food giveaway every Thursday. Spanish speakers welcome.",
+    "confidence_score": 0.91,
+    "source": "community",
+    "status": "ongoing",
+    "source_url": null,
+    "submitted_via": "telegram_group",
+    "telegram_group_name": "DC Community Food Network",
+    "original_message": "📢 COMMUNITY ALERT 📢\n\nFOOD GIVEAWAY — Thursdays 11am-3pm\n📍 Kingdom Life Church, 4321 Sheriff Rd NE, Washington DC 20019\n\nFresh vegetables, fruit, rice, beans, baby formula. Open to ALL families. No paperwork. Se habla español. Contact: (202) 555-0147",
+    "extracted_at": "2026-04-12T10:00:00Z"
   },
   {
     "entity_type": "org",
@@ -329,27 +350,6 @@
     "lng": -77.0244956,
     "status": "active",
     "validated_at": "2026-04-13T20:41:57.798Z"
-  },
-  {
-    "entity_type": "opportunity",
-    "name": "Food Sorting Volunteer — Capital Area Food Bank",
-    "address": "4900 Puerto Rico Ave NE, Washington, DC 20017",
-    "lat": 38.9323,
-    "lng": -76.9888,
-    "hours": "Tuesdays and Saturdays 8:00am – 11:00am",
-    "eligibility": "Open to all. Groups welcome.",
-    "food_types": [],
-    "languages_served": [
-      "en",
-      "es"
-    ],
-    "contact": "volunteer@capitalareafoodbank.org",
-    "description": "Help sort and pack food donations at the warehouse. No experience needed.",
-    "confidence_score": 0.93,
-    "source": "web",
-    "status": "active",
-    "source_url": "https://www.capitalareafoodbank.org/volunteer",
-    "extracted_at": "2026-04-13T00:00:00Z"
   },
   {
     "entity_type": "opportunity",
