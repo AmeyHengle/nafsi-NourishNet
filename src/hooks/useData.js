@@ -45,7 +45,7 @@ export function useFilteredData({ raw, userLocation, type, filters = {} }) {
           ...e,
           distance: distanceMiles(userLocation.lat, userLocation.lng, e.lat, e.lng),
         }))
-        .filter(e => e.distance <= (filters.maxDistance ?? 25))
+        .filter(e => e.distance <= (filters.maxDistance ?? 25))  // 25 mi default
         .sort((a, b) => a.distance - b.distance)
     }
 

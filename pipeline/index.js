@@ -19,7 +19,7 @@ const path = require('path');
 
 const { fetchUrl } = require('./fetcher');
 const { extractEntities, extractFromText } = require('./extractor');
-const { validateAll } = require('.//validator');
+const { validateAll } = require('./validator');
 const { deduplicateEntities } = require('./deduplicator');
 const { discoverUrls } = require('./discoverer');
 
@@ -139,9 +139,30 @@ async function run() {
   const validatedEntities = await validateAll(freshEntities);
   console.log(`  ${validatedEntities.length} passed validation\n`);
 
-  // ── Step 5: Deduplicate against existing data ────────────────
+  // ── Step 5: Deduplicate — always preserve curated entries ──────
   console.log(`── DEDUPLICATING ──────────────────────\n`);
-  const finalEntities = deduplicateEntities(validatedEntities, existingData);
+
+  // Mock (seed/demo) and community (Telegram bot) entries are never re-scraped.
+  // They must survive every pipeline run unconditionally.
+  const curatedEntries = existingData.filter(
+    e => e.source === 'mock' || e.source === 'community'
+  );
+  const curatedNames = new Set(curatedEntries.map(e => e.name.toLowerCase().trim()));
+
+  // Deduplicate only freshly scraped web entries against prior web entries
+  const priorWebEntries = existingData.filter(e => e.source === 'web');
+  const deduplicatedWeb = deduplicateEntities(validatedEntities, priorWebEntries);
+
+  // Drop any web entry whose name matches a curated entry to avoid shadowing
+  const filteredWeb = deduplicatedWeb.filter(
+    e => !curatedNames.has(e.name.toLowerCase().trim())
+  );
+
+  const finalEntities = [...filteredWeb, ...curatedEntries];
+
+  console.log(`  ${filteredWeb.length} web entities after deduplication`);
+  console.log(`  ${curatedEntries.length} curated entries preserved (mock + community)`);
+  console.log(`  ${finalEntities.length} total\n`);
 
   // ── Step 6: Update URL directory with discoveries ────────────
   const allKnownUrls = new Set(urlDirectory.map(e => e.url));
