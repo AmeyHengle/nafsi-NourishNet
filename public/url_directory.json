@@ -3,28 +3,28 @@
     "url": "https://www.capitalareafoodbank.org/find-food/",
     "label": "Capital Area Food Bank — find food",
     "status": "active",
-    "last_visited": "2026-07-13T18:24:58.292Z",
+    "last_visited": "2026-07-13T19:21:15.232Z",
     "content_hash": "29b817632f50f0dd1a3dec554f622ecd"
   },
   {
     "url": "https://www.marylandfoodbank.org/find-food/",
     "label": "Maryland Food Bank — find food",
     "status": "failed",
-    "last_visited": "2026-07-13T18:25:00.924Z",
+    "last_visited": "2026-07-13T19:21:17.701Z",
     "content_hash": null
   },
   {
     "url": "https://www.feedingamerica.org/find-your-local-foodbank",
     "label": "Feeding America — local food bank locator",
     "status": "active",
-    "last_visited": "2026-07-13T18:25:02.937Z",
+    "last_visited": "2026-07-13T19:21:19.247Z",
     "content_hash": "289ffae55b349e6d1cc0e26d0b01218e"
   },
   {
     "url": "https://dhs.dc.gov/service/food-assistance",
     "label": "DC DHS — food assistance programs",
     "status": "failed",
-    "last_visited": "2026-07-13T18:25:08.958Z",
+    "last_visited": "2026-07-13T19:21:23.661Z",
     "content_hash": "7d6873aff1d2d05be969a9e7989a47bf"
   },
   {
@@ -33,7 +33,7 @@
     "status": "active",
     "discovered_from": "https://dhs.dc.gov/service/food-assistance",
     "discovered_at": "2026-04-13T13:18:18.853Z",
-    "last_visited": "2026-07-13T18:25:12.134Z",
+    "last_visited": "2026-07-13T19:21:26.551Z",
     "content_hash": "5c6eebb134feef99ebe1cb10ed62a65b"
   },
   {
@@ -42,7 +42,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/find-food/",
     "discovered_at": "2026-06-01T14:45:39.965Z",
-    "last_visited": "2026-07-13T18:25:13.392Z",
+    "last_visited": "2026-07-13T19:21:28.899Z",
     "content_hash": "0ed401019f627099bd4c7738d0dc3c84"
   },
   {
@@ -51,7 +51,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/find-food/",
     "discovered_at": "2026-06-01T14:45:39.965Z",
-    "last_visited": "2026-07-13T18:25:15.535Z",
+    "last_visited": "2026-07-13T19:21:31.066Z",
     "content_hash": "2267e6778bfca56bf7d94c66272afe69"
   },
   {
@@ -60,7 +60,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/find-food/",
     "discovered_at": "2026-06-01T14:45:39.965Z",
-    "last_visited": "2026-07-13T18:25:46.793Z",
+    "last_visited": "2026-07-13T19:21:46.987Z",
     "content_hash": "5a0a736de4c76d1090b2b60f15b0cfc8"
   },
   {
@@ -69,7 +69,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/find-food/",
     "discovered_at": "2026-06-01T14:45:39.965Z",
-    "last_visited": "2026-07-13T18:25:48.184Z",
+    "last_visited": "2026-07-13T19:21:48.801Z",
     "content_hash": "c179b7c678b0b76bd429d86056d8e383"
   },
   {
@@ -78,7 +78,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/find-food/",
     "discovered_at": "2026-06-01T14:45:39.965Z",
-    "last_visited": "2026-07-13T18:25:50.102Z",
+    "last_visited": "2026-07-13T19:21:49.939Z",
     "content_hash": "5b3469908c288a5f6d817e859aa977f9"
   },
   {
@@ -87,7 +87,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/find-food/",
     "discovered_at": "2026-06-01T14:45:39.965Z",
-    "last_visited": "2026-07-13T18:25:51.928Z",
+    "last_visited": "2026-07-13T19:21:51.774Z",
     "content_hash": "edb609f418ccc807bc200ddff76ef85c"
   },
   {
@@ -96,7 +96,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/find-food/",
     "discovered_at": "2026-06-01T14:45:39.965Z",
-    "last_visited": "2026-07-13T18:26:06.099Z",
+    "last_visited": "2026-07-13T19:21:53.446Z",
     "content_hash": "3128548d80e0f0666aeb5cd9b2307112"
   },
   {
@@ -105,7 +105,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/find-food/",
     "discovered_at": "2026-06-01T14:45:39.965Z",
-    "last_visited": "2026-07-13T18:26:07.964Z",
+    "last_visited": "2026-07-13T19:21:55.349Z",
     "content_hash": "c49aa165d618c3f8dce1dcd3236f4836"
   },
   {
@@ -114,7 +114,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/find-food/",
     "discovered_at": "2026-06-01T14:45:39.965Z",
-    "last_visited": "2026-07-13T18:26:09.692Z",
+    "last_visited": "2026-07-13T19:21:57.193Z",
     "content_hash": "019b749ed9c8e2731450c6efc9eb1d0e"
   },
   {
@@ -123,7 +123,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/find-food/",
     "discovered_at": "2026-06-01T14:45:39.965Z",
-    "last_visited": "2026-07-13T18:26:11.412Z",
+    "last_visited": "2026-07-13T19:21:58.767Z",
     "content_hash": "adbf9e323b7c6058e72a577adc0c3920"
   },
   {
@@ -132,7 +132,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/",
     "discovered_at": "2026-06-01T17:37:03.364Z",
-    "last_visited": "2026-07-13T18:26:13.173Z",
+    "last_visited": "2026-07-13T19:21:59.913Z",
     "content_hash": "9f8e6333a73efbfbf79fd4a5a9eeec74"
   },
   {
@@ -141,7 +141,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/",
     "discovered_at": "2026-06-01T17:37:03.364Z",
-    "last_visited": "2026-07-13T18:26:14.826Z",
+    "last_visited": "2026-07-13T19:22:01.056Z",
     "content_hash": "81ba4719cc6a050c85c0d97a1964b0c8"
   },
   {
@@ -150,7 +150,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/",
     "discovered_at": "2026-06-01T17:37:03.364Z",
-    "last_visited": "2026-07-13T18:26:23.690Z",
+    "last_visited": "2026-07-13T19:22:10.337Z",
     "content_hash": "1e3a89390826cba80c35e5204193fb7e"
   },
   {
@@ -159,7 +159,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/",
     "discovered_at": "2026-06-01T17:37:03.364Z",
-    "last_visited": "2026-07-13T18:26:25.514Z",
+    "last_visited": "2026-07-13T19:22:12.107Z",
     "content_hash": "3fd965963f3361ff86781a86c3d2fba9"
   },
   {
@@ -168,7 +168,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/",
     "discovered_at": "2026-06-01T17:37:03.364Z",
-    "last_visited": "2026-07-13T18:26:27.058Z",
+    "last_visited": "2026-07-13T19:22:13.557Z",
     "content_hash": "5faa214faa8b77c70c667261a4b241cb"
   },
   {
@@ -177,7 +177,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/",
     "discovered_at": "2026-06-01T17:37:03.364Z",
-    "last_visited": "2026-07-13T18:26:28.678Z",
+    "last_visited": "2026-07-13T19:22:15.401Z",
     "content_hash": "f047c7e4cd33322709f953df15a50e71"
   },
   {
@@ -186,7 +186,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/",
     "discovered_at": "2026-06-01T17:37:03.364Z",
-    "last_visited": "2026-07-13T18:26:30.191Z",
+    "last_visited": "2026-07-13T19:22:16.955Z",
     "content_hash": "a94316cdf43ecabb59439652e9c908d2"
   },
   {
@@ -195,7 +195,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/",
     "discovered_at": "2026-06-01T17:37:03.364Z",
-    "last_visited": "2026-07-13T18:26:32.499Z",
+    "last_visited": "2026-07-13T19:22:19.117Z",
     "content_hash": "12c39972da3a08f1b5d0da9b8c9a6779"
   },
   {
@@ -204,7 +204,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/",
     "discovered_at": "2026-06-01T17:37:03.364Z",
-    "last_visited": "2026-07-13T18:26:40.827Z",
+    "last_visited": "2026-07-13T19:22:27.510Z",
     "content_hash": "a7dafe3e25c30586f3415c506df35a3d"
   },
   {
@@ -213,7 +213,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/",
     "discovered_at": "2026-06-01T17:37:03.364Z",
-    "last_visited": "2026-07-13T18:26:42.585Z",
+    "last_visited": "2026-07-13T19:22:28.884Z",
     "content_hash": "359fa351226fb3a8c0d4d8b4d11213b1"
   },
   {
@@ -222,7 +222,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/",
     "discovered_at": "2026-06-01T17:37:49.527Z",
-    "last_visited": "2026-07-13T18:26:43.736Z",
+    "last_visited": "2026-07-13T19:22:30.063Z",
     "content_hash": "9f8e6333a73efbfbf79fd4a5a9eeec74"
   },
   {
@@ -231,7 +231,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/",
     "discovered_at": "2026-06-01T17:37:49.527Z",
-    "last_visited": "2026-07-13T18:26:44.913Z",
+    "last_visited": "2026-07-13T19:22:31.237Z",
     "content_hash": "81ba4719cc6a050c85c0d97a1964b0c8"
   },
   {
@@ -240,7 +240,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/",
     "discovered_at": "2026-06-01T17:37:49.527Z",
-    "last_visited": "2026-07-13T18:26:53.755Z",
+    "last_visited": "2026-07-13T19:22:40.386Z",
     "content_hash": "1e3a89390826cba80c35e5204193fb7e"
   },
   {
@@ -249,7 +249,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/",
     "discovered_at": "2026-06-01T17:37:49.527Z",
-    "last_visited": "2026-07-13T18:26:54.972Z",
+    "last_visited": "2026-07-13T19:22:41.586Z",
     "content_hash": "3fd965963f3361ff86781a86c3d2fba9"
   },
   {
@@ -258,7 +258,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/",
     "discovered_at": "2026-06-01T17:37:49.527Z",
-    "last_visited": "2026-07-13T18:26:56.353Z",
+    "last_visited": "2026-07-13T19:22:43.134Z",
     "content_hash": "5faa214faa8b77c70c667261a4b241cb"
   },
   {
@@ -267,7 +267,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/",
     "discovered_at": "2026-06-01T17:37:49.527Z",
-    "last_visited": "2026-07-13T18:26:57.528Z",
+    "last_visited": "2026-07-13T19:22:44.273Z",
     "content_hash": "f047c7e4cd33322709f953df15a50e71"
   },
   {
@@ -276,7 +276,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/",
     "discovered_at": "2026-06-01T17:37:49.527Z",
-    "last_visited": "2026-07-13T18:26:58.665Z",
+    "last_visited": "2026-07-13T19:22:45.392Z",
     "content_hash": "a94316cdf43ecabb59439652e9c908d2"
   },
   {
@@ -285,7 +285,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/",
     "discovered_at": "2026-06-01T17:37:49.527Z",
-    "last_visited": "2026-07-13T18:27:00.546Z",
+    "last_visited": "2026-07-13T19:22:47.341Z",
     "content_hash": "12c39972da3a08f1b5d0da9b8c9a6779"
   },
   {
@@ -294,7 +294,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/",
     "discovered_at": "2026-06-01T17:37:49.527Z",
-    "last_visited": "2026-07-13T18:27:08.580Z",
+    "last_visited": "2026-07-13T19:22:55.329Z",
     "content_hash": "a7dafe3e25c30586f3415c506df35a3d"
   },
   {
@@ -303,7 +303,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/",
     "discovered_at": "2026-06-01T17:37:49.527Z",
-    "last_visited": "2026-07-13T18:27:09.782Z",
+    "last_visited": "2026-07-13T19:22:56.499Z",
     "content_hash": "359fa351226fb3a8c0d4d8b4d11213b1"
   },
   {
@@ -312,7 +312,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/direct-food-distribution-programs/",
     "discovered_at": "2026-06-01T17:38:01.386Z",
-    "last_visited": "2026-07-13T18:27:10.983Z",
+    "last_visited": "2026-07-13T19:22:57.683Z",
     "content_hash": "9f8e6333a73efbfbf79fd4a5a9eeec74"
   },
   {
@@ -321,7 +321,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/direct-food-distribution-programs/",
     "discovered_at": "2026-06-01T17:38:01.386Z",
-    "last_visited": "2026-07-13T18:27:12.212Z",
+    "last_visited": "2026-07-13T19:22:59.698Z",
     "content_hash": "81ba4719cc6a050c85c0d97a1964b0c8"
   },
   {
@@ -330,7 +330,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/direct-food-distribution-programs/",
     "discovered_at": "2026-06-01T17:38:01.386Z",
-    "last_visited": "2026-07-13T18:27:21.114Z",
+    "last_visited": "2026-07-13T19:23:15.327Z",
     "content_hash": "1e3a89390826cba80c35e5204193fb7e"
   },
   {
@@ -339,7 +339,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/direct-food-distribution-programs/",
     "discovered_at": "2026-06-01T17:38:01.386Z",
-    "last_visited": "2026-07-13T18:27:22.373Z",
+    "last_visited": "2026-07-13T19:23:16.550Z",
     "content_hash": "3fd965963f3361ff86781a86c3d2fba9"
   },
   {
@@ -348,7 +348,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/direct-food-distribution-programs/",
     "discovered_at": "2026-06-01T17:38:01.386Z",
-    "last_visited": "2026-07-13T18:27:23.895Z",
+    "last_visited": "2026-07-13T19:23:17.904Z",
     "content_hash": "5faa214faa8b77c70c667261a4b241cb"
   },
   {
@@ -357,7 +357,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/direct-food-distribution-programs/",
     "discovered_at": "2026-06-01T17:38:01.386Z",
-    "last_visited": "2026-07-13T18:27:25.334Z",
+    "last_visited": "2026-07-13T19:23:19.035Z",
     "content_hash": "f047c7e4cd33322709f953df15a50e71"
   },
   {
@@ -366,7 +366,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/direct-food-distribution-programs/",
     "discovered_at": "2026-06-01T17:38:01.386Z",
-    "last_visited": "2026-07-13T18:27:26.477Z",
+    "last_visited": "2026-07-13T19:23:20.179Z",
     "content_hash": "a94316cdf43ecabb59439652e9c908d2"
   },
   {
@@ -375,7 +375,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/direct-food-distribution-programs/",
     "discovered_at": "2026-06-01T17:38:01.386Z",
-    "last_visited": "2026-07-13T18:27:28.357Z",
+    "last_visited": "2026-07-13T19:23:22.056Z",
     "content_hash": "12c39972da3a08f1b5d0da9b8c9a6779"
   },
   {
@@ -384,7 +384,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/direct-food-distribution-programs/",
     "discovered_at": "2026-06-01T17:38:01.386Z",
-    "last_visited": "2026-07-13T18:27:36.019Z",
+    "last_visited": "2026-07-13T19:23:30.449Z",
     "content_hash": "a7dafe3e25c30586f3415c506df35a3d"
   },
   {
@@ -393,7 +393,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/direct-food-distribution-programs/",
     "discovered_at": "2026-06-01T17:38:01.386Z",
-    "last_visited": "2026-07-13T18:27:37.322Z",
+    "last_visited": "2026-07-13T19:23:31.765Z",
     "content_hash": "359fa351226fb3a8c0d4d8b4d11213b1"
   },
   {
@@ -402,7 +402,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/advocacy-public-policy/",
     "discovered_at": "2026-06-01T17:38:22.289Z",
-    "last_visited": "2026-07-13T18:27:38.513Z",
+    "last_visited": "2026-07-13T19:23:32.939Z",
     "content_hash": "9f8e6333a73efbfbf79fd4a5a9eeec74"
   },
   {
@@ -411,7 +411,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/advocacy-public-policy/",
     "discovered_at": "2026-06-01T17:38:22.289Z",
-    "last_visited": "2026-07-13T18:27:39.727Z",
+    "last_visited": "2026-07-13T19:23:34.165Z",
     "content_hash": "81ba4719cc6a050c85c0d97a1964b0c8"
   },
   {
@@ -420,7 +420,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/advocacy-public-policy/",
     "discovered_at": "2026-06-01T17:38:22.289Z",
-    "last_visited": "2026-07-13T18:27:54.109Z",
+    "last_visited": "2026-07-13T19:23:48.956Z",
     "content_hash": "1e3a89390826cba80c35e5204193fb7e"
   },
   {
@@ -429,7 +429,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/advocacy-public-policy/",
     "discovered_at": "2026-06-01T17:38:22.289Z",
-    "last_visited": "2026-07-13T18:27:55.374Z",
+    "last_visited": "2026-07-13T19:23:50.207Z",
     "content_hash": "3fd965963f3361ff86781a86c3d2fba9"
   },
   {
@@ -438,7 +438,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/advocacy-public-policy/",
     "discovered_at": "2026-06-01T17:38:22.289Z",
-    "last_visited": "2026-07-13T18:27:56.748Z",
+    "last_visited": "2026-07-13T19:23:51.676Z",
     "content_hash": "5faa214faa8b77c70c667261a4b241cb"
   },
   {
@@ -447,7 +447,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/advocacy-public-policy/",
     "discovered_at": "2026-06-01T17:38:22.289Z",
-    "last_visited": "2026-07-13T18:27:57.877Z",
+    "last_visited": "2026-07-13T19:23:52.839Z",
     "content_hash": "f047c7e4cd33322709f953df15a50e71"
   },
   {
@@ -456,7 +456,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/advocacy-public-policy/",
     "discovered_at": "2026-06-01T17:38:22.289Z",
-    "last_visited": "2026-07-13T18:27:59.023Z",
+    "last_visited": "2026-07-13T19:23:53.964Z",
     "content_hash": "a94316cdf43ecabb59439652e9c908d2"
   },
   {
@@ -465,8 +465,8 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/advocacy-public-policy/",
     "discovered_at": "2026-06-01T17:38:22.289Z",
-    "last_visited": "2026-07-13T18:28:01.442Z",
-    "content_hash": "12c39972da3a08f1b5d0da9b8c9a6779"
+    "last_visited": "2026-07-13T19:24:14.866Z",
+    "content_hash": "f9e0863da8022dcbc6c8df38c7f4d5bc"
   },
   {
     "url": "https://www.freewill.com/capitalareafoodbank",
@@ -474,7 +474,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/advocacy-public-policy/",
     "discovered_at": "2026-06-01T17:38:22.289Z",
-    "last_visited": "2026-07-13T18:28:09.891Z",
+    "last_visited": "2026-07-13T19:24:23.306Z",
     "content_hash": "a7dafe3e25c30586f3415c506df35a3d"
   },
   {
@@ -483,7 +483,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/advocacy-public-policy/",
     "discovered_at": "2026-06-01T17:38:22.289Z",
-    "last_visited": "2026-07-13T18:28:11.213Z",
+    "last_visited": "2026-07-13T19:24:24.502Z",
     "content_hash": "359fa351226fb3a8c0d4d8b4d11213b1"
   },
   {
@@ -492,7 +492,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/farms-and-gardening/",
     "discovered_at": "2026-06-01T17:38:44.734Z",
-    "last_visited": "2026-07-13T18:28:12.388Z",
+    "last_visited": "2026-07-13T19:24:26.591Z",
     "content_hash": "9f8e6333a73efbfbf79fd4a5a9eeec74"
   },
   {
@@ -501,7 +501,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/farms-and-gardening/",
     "discovered_at": "2026-06-01T17:38:44.734Z",
-    "last_visited": "2026-07-13T18:28:13.578Z",
+    "last_visited": "2026-07-13T19:24:27.758Z",
     "content_hash": "81ba4719cc6a050c85c0d97a1964b0c8"
   },
   {
@@ -510,7 +510,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/farms-and-gardening/",
     "discovered_at": "2026-06-01T17:38:44.734Z",
-    "last_visited": "2026-07-13T18:28:23.935Z",
+    "last_visited": "2026-07-13T19:24:58.949Z",
     "content_hash": "1e3a89390826cba80c35e5204193fb7e"
   },
   {
@@ -519,7 +519,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/farms-and-gardening/",
     "discovered_at": "2026-06-01T17:38:44.734Z",
-    "last_visited": "2026-07-13T18:28:25.154Z",
+    "last_visited": "2026-07-13T19:25:00.293Z",
     "content_hash": "3fd965963f3361ff86781a86c3d2fba9"
   },
   {
@@ -528,7 +528,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/farms-and-gardening/",
     "discovered_at": "2026-06-01T17:38:44.734Z",
-    "last_visited": "2026-07-13T18:28:26.522Z",
+    "last_visited": "2026-07-13T19:25:01.985Z",
     "content_hash": "5faa214faa8b77c70c667261a4b241cb"
   },
   {
@@ -537,7 +537,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/farms-and-gardening/",
     "discovered_at": "2026-06-01T17:38:44.734Z",
-    "last_visited": "2026-07-13T18:28:27.648Z",
+    "last_visited": "2026-07-13T19:25:03.125Z",
     "content_hash": "f047c7e4cd33322709f953df15a50e71"
   },
   {
@@ -546,7 +546,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/farms-and-gardening/",
     "discovered_at": "2026-06-01T17:38:44.734Z",
-    "last_visited": "2026-07-13T18:28:28.764Z",
+    "last_visited": "2026-07-13T19:25:04.238Z",
     "content_hash": "a94316cdf43ecabb59439652e9c908d2"
   },
   {
@@ -555,7 +555,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/farms-and-gardening/",
     "discovered_at": "2026-06-01T17:38:44.734Z",
-    "last_visited": "2026-07-13T18:28:31.682Z",
+    "last_visited": "2026-07-13T19:25:06.021Z",
     "content_hash": "12c39972da3a08f1b5d0da9b8c9a6779"
   },
   {
@@ -564,7 +564,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/farms-and-gardening/",
     "discovered_at": "2026-06-01T17:38:44.734Z",
-    "last_visited": "2026-07-13T18:28:39.573Z",
+    "last_visited": "2026-07-13T19:25:14.280Z",
     "content_hash": "a7dafe3e25c30586f3415c506df35a3d"
   },
   {
@@ -573,7 +573,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/what-we-do/farms-and-gardening/",
     "discovered_at": "2026-06-01T17:38:44.734Z",
-    "last_visited": "2026-07-13T18:28:40.719Z",
+    "last_visited": "2026-07-13T19:25:15.442Z",
     "content_hash": "359fa351226fb3a8c0d4d8b4d11213b1"
   },
   {
@@ -582,7 +582,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/impact/",
     "discovered_at": "2026-06-01T19:50:42.743Z",
-    "last_visited": "2026-07-13T18:28:42.411Z",
+    "last_visited": "2026-07-13T19:25:16.961Z",
     "content_hash": null
   },
   {
@@ -591,7 +591,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/impact/",
     "discovered_at": "2026-06-01T19:50:42.743Z",
-    "last_visited": "2026-07-13T18:28:44.289Z",
+    "last_visited": "2026-07-13T19:25:18.829Z",
     "content_hash": "cee0219a6db33b2d8ffab295846b015e"
   },
   {
@@ -600,7 +600,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/impact/",
     "discovered_at": "2026-06-01T19:50:42.743Z",
-    "last_visited": "2026-07-13T18:28:45.437Z",
+    "last_visited": "2026-07-13T19:25:20.477Z",
     "content_hash": "b7ec698bd5f058cff210b9c75d7650cd"
   },
   {
@@ -609,7 +609,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/impact/",
     "discovered_at": "2026-06-01T19:50:42.743Z",
-    "last_visited": "2026-07-13T18:28:47.204Z",
+    "last_visited": "2026-07-13T19:25:21.616Z",
     "content_hash": "29b817632f50f0dd1a3dec554f622ecd"
   },
   {
@@ -618,7 +618,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/impact/",
     "discovered_at": "2026-06-01T19:50:42.743Z",
-    "last_visited": "2026-07-13T18:28:49.077Z",
+    "last_visited": "2026-07-13T19:25:22.722Z",
     "content_hash": "291158e052170642b58f912539edf0c4"
   },
   {
@@ -627,7 +627,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/impact/",
     "discovered_at": "2026-06-01T19:50:42.743Z",
-    "last_visited": "2026-07-13T18:28:50.711Z",
+    "last_visited": "2026-07-13T19:25:24.698Z",
     "content_hash": "7ac68cde3157271ac2684876547e30e5"
   },
   {
@@ -636,7 +636,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/",
     "discovered_at": "2026-06-01T19:50:47.446Z",
-    "last_visited": "2026-07-13T18:28:52.046Z",
+    "last_visited": "2026-07-13T19:25:26.063Z",
     "content_hash": null
   },
   {
@@ -645,7 +645,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/",
     "discovered_at": "2026-06-01T19:50:47.446Z",
-    "last_visited": "2026-07-13T18:28:53.544Z",
+    "last_visited": "2026-07-13T19:25:27.318Z",
     "content_hash": "cee0219a6db33b2d8ffab295846b015e"
   },
   {
@@ -654,7 +654,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/",
     "discovered_at": "2026-06-01T19:50:47.446Z",
-    "last_visited": "2026-07-13T18:28:54.645Z",
+    "last_visited": "2026-07-13T19:25:28.440Z",
     "content_hash": "b7ec698bd5f058cff210b9c75d7650cd"
   },
   {
@@ -663,7 +663,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/",
     "discovered_at": "2026-06-01T19:50:47.446Z",
-    "last_visited": "2026-07-13T18:28:55.771Z",
+    "last_visited": "2026-07-13T19:25:29.557Z",
     "content_hash": "29b817632f50f0dd1a3dec554f622ecd"
   },
   {
@@ -672,7 +672,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/",
     "discovered_at": "2026-06-01T19:50:47.446Z",
-    "last_visited": "2026-07-13T18:28:57.318Z",
+    "last_visited": "2026-07-13T19:25:30.728Z",
     "content_hash": "3fd965963f3361ff86781a86c3d2fba9"
   },
   {
@@ -681,7 +681,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/",
     "discovered_at": "2026-06-01T19:50:47.446Z",
-    "last_visited": "2026-07-13T18:28:59.455Z",
+    "last_visited": "2026-07-13T19:25:31.971Z",
     "content_hash": "4de050854e771abe3f6e8fe8858848c3"
   },
   {
@@ -690,7 +690,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/",
     "discovered_at": "2026-06-01T19:50:47.446Z",
-    "last_visited": "2026-07-13T18:29:01.050Z",
+    "last_visited": "2026-07-13T19:25:33.854Z",
     "content_hash": "b8b1c677634cd2f085188ded60a5557b"
   },
   {
@@ -699,7 +699,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/",
     "discovered_at": "2026-06-01T19:50:47.446Z",
-    "last_visited": "2026-07-13T18:29:03.287Z",
+    "last_visited": "2026-07-13T19:25:36.431Z",
     "content_hash": "12c39972da3a08f1b5d0da9b8c9a6779"
   },
   {
@@ -708,7 +708,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/",
     "discovered_at": "2026-06-01T19:50:47.446Z",
-    "last_visited": "2026-07-13T18:29:05.678Z",
+    "last_visited": "2026-07-13T19:25:37.615Z",
     "content_hash": "359fa351226fb3a8c0d4d8b4d11213b1"
   },
   {
@@ -717,7 +717,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/donate/",
     "discovered_at": "2026-06-01T19:50:58.249Z",
-    "last_visited": "2026-07-13T18:29:07.060Z",
+    "last_visited": "2026-07-13T19:25:38.956Z",
     "content_hash": "0ed401019f627099bd4c7738d0dc3c84"
   },
   {
@@ -726,7 +726,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/donate/",
     "discovered_at": "2026-06-01T19:50:58.249Z",
-    "last_visited": "2026-07-13T18:29:16.380Z",
+    "last_visited": "2026-07-13T19:25:53.611Z",
     "content_hash": "1e3a89390826cba80c35e5204193fb7e"
   },
   {
@@ -735,7 +735,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/donate/",
     "discovered_at": "2026-06-01T19:50:58.249Z",
-    "last_visited": "2026-07-13T18:29:17.628Z",
+    "last_visited": "2026-07-13T19:25:54.838Z",
     "content_hash": "291158e052170642b58f912539edf0c4"
   },
   {
@@ -744,7 +744,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/donate/",
     "discovered_at": "2026-06-01T19:50:58.249Z",
-    "last_visited": "2026-07-13T18:29:19.481Z",
+    "last_visited": "2026-07-13T19:25:56.767Z",
     "content_hash": "0687afc56f275b4dbec59b80e67538b7"
   },
   {
@@ -753,7 +753,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/donate/",
     "discovered_at": "2026-06-01T19:50:58.249Z",
-    "last_visited": "2026-07-13T18:29:21.617Z",
+    "last_visited": "2026-07-13T19:25:59.019Z",
     "content_hash": "2267e6778bfca56bf7d94c66272afe69"
   },
   {
@@ -762,7 +762,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/donate-food/",
     "discovered_at": "2026-06-01T19:51:02.788Z",
-    "last_visited": "2026-07-13T18:29:22.941Z",
+    "last_visited": "2026-07-13T19:26:00.380Z",
     "content_hash": null
   },
   {
@@ -771,7 +771,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/donate-food/",
     "discovered_at": "2026-06-01T19:51:02.788Z",
-    "last_visited": "2026-07-13T18:29:24.135Z",
+    "last_visited": "2026-07-13T19:26:01.608Z",
     "content_hash": "cee0219a6db33b2d8ffab295846b015e"
   },
   {
@@ -780,7 +780,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/donate-food/",
     "discovered_at": "2026-06-01T19:51:02.788Z",
-    "last_visited": "2026-07-13T18:29:25.234Z",
+    "last_visited": "2026-07-13T19:26:02.764Z",
     "content_hash": "b7ec698bd5f058cff210b9c75d7650cd"
   },
   {
@@ -789,7 +789,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/donate-food/",
     "discovered_at": "2026-06-01T19:51:02.788Z",
-    "last_visited": "2026-07-13T18:29:26.348Z",
+    "last_visited": "2026-07-13T19:26:03.881Z",
     "content_hash": "29b817632f50f0dd1a3dec554f622ecd"
   },
   {
@@ -798,7 +798,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/donate-food/",
     "discovered_at": "2026-06-01T19:51:02.788Z",
-    "last_visited": "2026-07-13T18:29:28.080Z",
+    "last_visited": "2026-07-13T19:26:05.596Z",
     "content_hash": "2b59a184d31be71903627322573fa873"
   },
   {
@@ -807,7 +807,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/donate-food/",
     "discovered_at": "2026-06-01T19:51:02.788Z",
-    "last_visited": "2026-07-13T18:29:29.795Z",
+    "last_visited": "2026-07-13T19:26:07.116Z",
     "content_hash": "d2c18180b4923af9777141902d5604d9"
   },
   {
@@ -816,7 +816,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/donate-food/",
     "discovered_at": "2026-06-01T19:51:02.788Z",
-    "last_visited": "2026-07-13T18:29:31.488Z",
+    "last_visited": "2026-07-13T19:26:08.250Z",
     "content_hash": "0d1bd3282c94a5802ec6ad00a5b838cc"
   },
   {
@@ -825,7 +825,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/donate-food/",
     "discovered_at": "2026-06-01T19:51:02.788Z",
-    "last_visited": "2026-07-13T18:29:33.091Z",
+    "last_visited": "2026-07-13T19:26:09.822Z",
     "content_hash": "2fdc7878578d103754734c624dfc7464"
   },
   {
@@ -834,7 +834,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/donate-food/",
     "discovered_at": "2026-06-01T19:51:02.788Z",
-    "last_visited": "2026-07-13T18:29:35.908Z",
+    "last_visited": "2026-07-13T19:26:11.094Z",
     "content_hash": null
   },
   {
@@ -843,7 +843,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/donate-food/",
     "discovered_at": "2026-06-01T19:51:02.788Z",
-    "last_visited": "2026-07-13T18:29:37.290Z",
+    "last_visited": "2026-07-13T19:26:12.334Z",
     "content_hash": "0d1bd3282c94a5802ec6ad00a5b838cc"
   },
   {
@@ -852,7 +852,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/virtual-fundraising/",
     "discovered_at": "2026-06-01T19:51:20.452Z",
-    "last_visited": "2026-07-13T18:29:38.671Z",
+    "last_visited": "2026-07-13T19:26:13.667Z",
     "content_hash": null
   },
   {
@@ -861,7 +861,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/virtual-fundraising/",
     "discovered_at": "2026-06-01T19:51:20.452Z",
-    "last_visited": "2026-07-13T18:29:39.868Z",
+    "last_visited": "2026-07-13T19:26:15.176Z",
     "content_hash": "cee0219a6db33b2d8ffab295846b015e"
   },
   {
@@ -870,7 +870,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/virtual-fundraising/",
     "discovered_at": "2026-06-01T19:51:20.452Z",
-    "last_visited": "2026-07-13T18:29:40.962Z",
+    "last_visited": "2026-07-13T19:26:16.391Z",
     "content_hash": "b7ec698bd5f058cff210b9c75d7650cd"
   },
   {
@@ -879,7 +879,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/virtual-fundraising/",
     "discovered_at": "2026-06-01T19:51:20.452Z",
-    "last_visited": "2026-07-13T18:29:42.092Z",
+    "last_visited": "2026-07-13T19:26:17.530Z",
     "content_hash": "29b817632f50f0dd1a3dec554f622ecd"
   },
   {
@@ -888,7 +888,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/virtual-fundraising/",
     "discovered_at": "2026-06-01T19:51:20.452Z",
-    "last_visited": "2026-07-13T18:29:57.572Z",
+    "last_visited": "2026-07-13T19:26:25.903Z",
     "content_hash": "6d7ac384770ee282f12d09a7214d56e6"
   },
   {
@@ -897,7 +897,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/virtual-fundraising/",
     "discovered_at": "2026-06-01T19:51:20.452Z",
-    "last_visited": "2026-07-13T18:29:59.885Z",
+    "last_visited": "2026-07-13T19:26:27.253Z",
     "content_hash": "315e606ebc1d90d7b3e29be1170dba04"
   },
   {
@@ -906,7 +906,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/virtual-fundraising/",
     "discovered_at": "2026-06-01T19:51:20.452Z",
-    "last_visited": "2026-07-13T18:30:10.447Z",
+    "last_visited": "2026-07-13T19:26:38.780Z",
     "content_hash": "decff566bd34a46846f86aa50635d2b1"
   },
   {
@@ -915,7 +915,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/virtual-fundraising/",
     "discovered_at": "2026-06-01T19:51:20.452Z",
-    "last_visited": "2026-07-13T18:30:18.139Z",
+    "last_visited": "2026-07-13T19:26:48.831Z",
     "content_hash": "68852b2d19a9c493c227e86666b8ea13"
   },
   {
@@ -924,7 +924,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/virtual-fundraising/",
     "discovered_at": "2026-06-01T19:51:20.452Z",
-    "last_visited": "2026-07-13T18:30:26.602Z",
+    "last_visited": "2026-07-13T19:26:55.808Z",
     "content_hash": "7d0be81f63d629d8ceaed54adcaa8a32"
   },
   {
@@ -933,7 +933,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/how-to-help-corporate-engagement/",
     "discovered_at": "2026-06-01T19:51:32.537Z",
-    "last_visited": "2026-07-13T18:30:28.011Z",
+    "last_visited": "2026-07-13T19:26:57.161Z",
     "content_hash": null
   },
   {
@@ -942,7 +942,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/how-to-help-corporate-engagement/",
     "discovered_at": "2026-06-01T19:51:32.537Z",
-    "last_visited": "2026-07-13T18:30:29.315Z",
+    "last_visited": "2026-07-13T19:26:58.452Z",
     "content_hash": "cee0219a6db33b2d8ffab295846b015e"
   },
   {
@@ -951,7 +951,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/how-to-help-corporate-engagement/",
     "discovered_at": "2026-06-01T19:51:32.537Z",
-    "last_visited": "2026-07-13T18:30:31.099Z",
+    "last_visited": "2026-07-13T19:26:59.576Z",
     "content_hash": "b7ec698bd5f058cff210b9c75d7650cd"
   },
   {
@@ -960,7 +960,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/how-to-help-corporate-engagement/",
     "discovered_at": "2026-06-01T19:51:32.537Z",
-    "last_visited": "2026-07-13T18:30:32.219Z",
+    "last_visited": "2026-07-13T19:27:00.707Z",
     "content_hash": "29b817632f50f0dd1a3dec554f622ecd"
   },
   {
@@ -969,7 +969,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/how-to-help-corporate-engagement/",
     "discovered_at": "2026-06-01T19:51:32.537Z",
-    "last_visited": "2026-07-13T18:30:33.591Z",
+    "last_visited": "2026-07-13T19:27:02.053Z",
     "content_hash": "8423595043dc03d9e38558814f085e4f"
   },
   {
@@ -978,7 +978,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/how-to-help-corporate-engagement/",
     "discovered_at": "2026-06-01T19:51:32.537Z",
-    "last_visited": "2026-07-13T18:30:35.246Z",
+    "last_visited": "2026-07-13T19:27:03.605Z",
     "content_hash": "2fdc7878578d103754734c624dfc7464"
   },
   {
@@ -987,7 +987,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/how-to-help-corporate-engagement/",
     "discovered_at": "2026-06-01T19:51:32.537Z",
-    "last_visited": "2026-07-13T18:30:36.468Z",
+    "last_visited": "2026-07-13T19:27:05.474Z",
     "content_hash": "359fa351226fb3a8c0d4d8b4d11213b1"
   },
   {
@@ -996,7 +996,7 @@
     "status": "active",
     "discovered_from": "https://www.freewill.com/capitalareafoodbank",
     "discovered_at": "2026-06-01T19:51:52.096Z",
-    "last_visited": "2026-07-13T18:30:46.499Z",
+    "last_visited": "2026-07-13T19:27:15.420Z",
     "content_hash": "a0ce1c28c666a957ed2aace2c2784350"
   },
   {
@@ -1005,7 +1005,7 @@
     "status": "active",
     "discovered_from": "https://www.freewill.com/capitalareafoodbank",
     "discovered_at": "2026-06-01T19:51:52.096Z",
-    "last_visited": "2026-07-13T18:30:54.771Z",
+    "last_visited": "2026-07-13T19:27:23.872Z",
     "content_hash": "603390be870169b24fab8065254b9325"
   },
   {
@@ -1014,7 +1014,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/more-ways-to-help/",
     "discovered_at": "2026-06-01T19:52:00.367Z",
-    "last_visited": "2026-07-13T18:30:56.247Z",
+    "last_visited": "2026-07-13T19:27:25.420Z",
     "content_hash": null
   },
   {
@@ -1023,7 +1023,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/more-ways-to-help/",
     "discovered_at": "2026-06-01T19:52:00.367Z",
-    "last_visited": "2026-07-13T18:30:57.518Z",
+    "last_visited": "2026-07-13T19:27:26.682Z",
     "content_hash": "cee0219a6db33b2d8ffab295846b015e"
   },
   {
@@ -1032,7 +1032,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/more-ways-to-help/",
     "discovered_at": "2026-06-01T19:52:00.367Z",
-    "last_visited": "2026-07-13T18:30:58.715Z",
+    "last_visited": "2026-07-13T19:27:27.807Z",
     "content_hash": "b7ec698bd5f058cff210b9c75d7650cd"
   },
   {
@@ -1041,7 +1041,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/more-ways-to-help/",
     "discovered_at": "2026-06-01T19:52:00.367Z",
-    "last_visited": "2026-07-13T18:30:59.835Z",
+    "last_visited": "2026-07-13T19:27:28.917Z",
     "content_hash": "29b817632f50f0dd1a3dec554f622ecd"
   },
   {
@@ -1050,7 +1050,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/more-ways-to-help/",
     "discovered_at": "2026-06-01T19:52:00.367Z",
-    "last_visited": "2026-07-13T18:31:01.783Z",
+    "last_visited": "2026-07-13T19:27:30.767Z",
     "content_hash": "d73791ca39c76f8b0991bf9284855db9"
   },
   {
@@ -1059,7 +1059,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/more-ways-to-help/",
     "discovered_at": "2026-06-01T19:52:00.367Z",
-    "last_visited": "2026-07-13T18:31:03.808Z",
+    "last_visited": "2026-07-13T19:27:32.482Z",
     "content_hash": "1c47824df8880299a12c505962a59c8f"
   },
   {
@@ -1068,7 +1068,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/more-ways-to-help/",
     "discovered_at": "2026-06-01T19:52:00.367Z",
-    "last_visited": "2026-07-13T18:31:05.744Z",
+    "last_visited": "2026-07-13T19:27:34.583Z",
     "content_hash": "12c39972da3a08f1b5d0da9b8c9a6779"
   },
   {
@@ -1077,7 +1077,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/more-ways-to-help/",
     "discovered_at": "2026-06-01T19:52:00.367Z",
-    "last_visited": "2026-07-13T18:31:07.513Z",
+    "last_visited": "2026-07-13T19:27:36.190Z",
     "content_hash": "e279009f93f9712280aa56f706a6006c"
   },
   {
@@ -1086,7 +1086,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/more-ways-to-help/",
     "discovered_at": "2026-06-01T19:52:00.367Z",
-    "last_visited": "2026-07-13T18:31:09.064Z",
+    "last_visited": "2026-07-13T19:27:37.421Z",
     "content_hash": "d73791ca39c76f8b0991bf9284855db9"
   },
   {
@@ -1095,7 +1095,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/more-ways-to-help/",
     "discovered_at": "2026-06-01T19:52:00.367Z",
-    "last_visited": "2026-07-13T18:31:10.675Z",
+    "last_visited": "2026-07-13T19:27:38.658Z",
     "content_hash": "1c47824df8880299a12c505962a59c8f"
   },
   {
@@ -1104,7 +1104,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/impact/",
     "discovered_at": "2026-06-01T19:52:09.798Z",
-    "last_visited": "2026-07-13T18:31:12.046Z",
+    "last_visited": "2026-07-13T19:27:40.023Z",
     "content_hash": null
   },
   {
@@ -1113,7 +1113,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/impact/",
     "discovered_at": "2026-06-01T19:52:09.798Z",
-    "last_visited": "2026-07-13T18:31:13.606Z",
+    "last_visited": "2026-07-13T19:27:41.578Z",
     "content_hash": "cee0219a6db33b2d8ffab295846b015e"
   },
   {
@@ -1122,7 +1122,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/impact/",
     "discovered_at": "2026-06-01T19:52:09.798Z",
-    "last_visited": "2026-07-13T18:31:14.718Z",
+    "last_visited": "2026-07-13T19:27:42.681Z",
     "content_hash": "b7ec698bd5f058cff210b9c75d7650cd"
   },
   {
@@ -1131,7 +1131,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/impact/",
     "discovered_at": "2026-06-01T19:52:09.798Z",
-    "last_visited": "2026-07-13T18:31:15.842Z",
+    "last_visited": "2026-07-13T19:27:43.799Z",
     "content_hash": "29b817632f50f0dd1a3dec554f622ecd"
   },
   {
@@ -1140,7 +1140,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/impact/",
     "discovered_at": "2026-06-01T19:52:09.798Z",
-    "last_visited": "2026-07-13T18:31:16.957Z",
+    "last_visited": "2026-07-13T19:27:44.910Z",
     "content_hash": "291158e052170642b58f912539edf0c4"
   },
   {
@@ -1149,7 +1149,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/impact/",
     "discovered_at": "2026-06-01T19:52:09.798Z",
-    "last_visited": "2026-07-13T18:31:18.121Z",
+    "last_visited": "2026-07-13T19:27:46.112Z",
     "content_hash": "7ac68cde3157271ac2684876547e30e5"
   },
   {
@@ -1158,7 +1158,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/",
     "discovered_at": "2026-06-01T19:52:21.144Z",
-    "last_visited": "2026-07-13T18:31:19.456Z",
+    "last_visited": "2026-07-13T19:27:47.443Z",
     "content_hash": null
   },
   {
@@ -1167,7 +1167,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/",
     "discovered_at": "2026-06-01T19:52:21.144Z",
-    "last_visited": "2026-07-13T18:31:20.691Z",
+    "last_visited": "2026-07-13T19:27:48.667Z",
     "content_hash": "cee0219a6db33b2d8ffab295846b015e"
   },
   {
@@ -1176,7 +1176,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/",
     "discovered_at": "2026-06-01T19:52:21.144Z",
-    "last_visited": "2026-07-13T18:31:21.810Z",
+    "last_visited": "2026-07-13T19:27:49.792Z",
     "content_hash": "b7ec698bd5f058cff210b9c75d7650cd"
   },
   {
@@ -1185,7 +1185,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/",
     "discovered_at": "2026-06-01T19:52:21.144Z",
-    "last_visited": "2026-07-13T18:31:22.925Z",
+    "last_visited": "2026-07-13T19:27:50.904Z",
     "content_hash": "29b817632f50f0dd1a3dec554f622ecd"
   },
   {
@@ -1194,7 +1194,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/",
     "discovered_at": "2026-06-01T19:52:21.144Z",
-    "last_visited": "2026-07-13T18:31:24.073Z",
+    "last_visited": "2026-07-13T19:27:52.539Z",
     "content_hash": "3fd965963f3361ff86781a86c3d2fba9"
   },
   {
@@ -1203,7 +1203,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/",
     "discovered_at": "2026-06-01T19:52:21.144Z",
-    "last_visited": "2026-07-13T18:31:25.283Z",
+    "last_visited": "2026-07-13T19:27:54.186Z",
     "content_hash": "4de050854e771abe3f6e8fe8858848c3"
   },
   {
@@ -1212,7 +1212,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/",
     "discovered_at": "2026-06-01T19:52:21.144Z",
-    "last_visited": "2026-07-13T18:31:26.406Z",
+    "last_visited": "2026-07-13T19:27:55.307Z",
     "content_hash": "b8b1c677634cd2f085188ded60a5557b"
   },
   {
@@ -1221,7 +1221,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/",
     "discovered_at": "2026-06-01T19:52:21.144Z",
-    "last_visited": "2026-07-13T18:31:28.368Z",
+    "last_visited": "2026-07-13T19:27:57.483Z",
     "content_hash": "12c39972da3a08f1b5d0da9b8c9a6779"
   },
   {
@@ -1230,7 +1230,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/",
     "discovered_at": "2026-06-01T19:52:21.144Z",
-    "last_visited": "2026-07-13T18:31:29.587Z",
+    "last_visited": "2026-07-13T19:27:58.779Z",
     "content_hash": "359fa351226fb3a8c0d4d8b4d11213b1"
   },
   {
@@ -1239,7 +1239,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/donate/",
     "discovered_at": "2026-06-01T19:52:34.959Z",
-    "last_visited": "2026-07-13T18:31:30.894Z",
+    "last_visited": "2026-07-13T19:27:59.991Z",
     "content_hash": "0ed401019f627099bd4c7738d0dc3c84"
   },
   {
@@ -1248,7 +1248,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/donate/",
     "discovered_at": "2026-06-01T19:52:34.959Z",
-    "last_visited": "2026-07-13T18:31:39.821Z",
+    "last_visited": "2026-07-13T19:28:31.170Z",
     "content_hash": "1e3a89390826cba80c35e5204193fb7e"
   },
   {
@@ -1257,7 +1257,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/donate/",
     "discovered_at": "2026-06-01T19:52:34.959Z",
-    "last_visited": "2026-07-13T18:31:40.991Z",
+    "last_visited": "2026-07-13T19:28:32.387Z",
     "content_hash": "291158e052170642b58f912539edf0c4"
   },
   {
@@ -1266,7 +1266,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/donate/",
     "discovered_at": "2026-06-01T19:52:34.959Z",
-    "last_visited": "2026-07-13T18:31:42.220Z",
+    "last_visited": "2026-07-13T19:28:33.664Z",
     "content_hash": "0687afc56f275b4dbec59b80e67538b7"
   },
   {
@@ -1275,7 +1275,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/donate/",
     "discovered_at": "2026-06-01T19:52:34.959Z",
-    "last_visited": "2026-07-13T18:31:44.362Z",
+    "last_visited": "2026-07-13T19:28:35.984Z",
     "content_hash": "2267e6778bfca56bf7d94c66272afe69"
   },
   {
@@ -1284,7 +1284,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/virtual-fundraising/",
     "discovered_at": "2026-06-01T19:53:08.148Z",
-    "last_visited": "2026-07-13T18:31:45.676Z",
+    "last_visited": "2026-07-13T19:28:37.305Z",
     "content_hash": null
   },
   {
@@ -1293,7 +1293,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/virtual-fundraising/",
     "discovered_at": "2026-06-01T19:53:08.148Z",
-    "last_visited": "2026-07-13T18:31:46.874Z",
+    "last_visited": "2026-07-13T19:28:38.507Z",
     "content_hash": "cee0219a6db33b2d8ffab295846b015e"
   },
   {
@@ -1302,7 +1302,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/virtual-fundraising/",
     "discovered_at": "2026-06-01T19:53:08.148Z",
-    "last_visited": "2026-07-13T18:31:47.983Z",
+    "last_visited": "2026-07-13T19:28:39.603Z",
     "content_hash": "b7ec698bd5f058cff210b9c75d7650cd"
   },
   {
@@ -1311,7 +1311,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/virtual-fundraising/",
     "discovered_at": "2026-06-01T19:53:08.148Z",
-    "last_visited": "2026-07-13T18:31:49.095Z",
+    "last_visited": "2026-07-13T19:28:40.716Z",
     "content_hash": "29b817632f50f0dd1a3dec554f622ecd"
   },
   {
@@ -1320,7 +1320,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/virtual-fundraising/",
     "discovered_at": "2026-06-01T19:53:08.148Z",
-    "last_visited": "2026-07-13T18:32:01.169Z",
+    "last_visited": "2026-07-13T19:28:54.629Z",
     "content_hash": "6d7ac384770ee282f12d09a7214d56e6"
   },
   {
@@ -1329,7 +1329,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/virtual-fundraising/",
     "discovered_at": "2026-06-01T19:53:08.148Z",
-    "last_visited": "2026-07-13T18:32:02.606Z",
+    "last_visited": "2026-07-13T19:28:56.693Z",
     "content_hash": "315e606ebc1d90d7b3e29be1170dba04"
   },
   {
@@ -1338,7 +1338,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/virtual-fundraising/",
     "discovered_at": "2026-06-01T19:53:08.148Z",
-    "last_visited": "2026-07-13T18:32:09.917Z",
+    "last_visited": "2026-07-13T19:29:04.587Z",
     "content_hash": "decff566bd34a46846f86aa50635d2b1"
   },
   {
@@ -1347,7 +1347,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/virtual-fundraising/",
     "discovered_at": "2026-06-01T19:53:08.148Z",
-    "last_visited": "2026-07-13T18:32:41.746Z",
+    "last_visited": "2026-07-13T19:29:12.984Z",
     "content_hash": "68852b2d19a9c493c227e86666b8ea13"
   },
   {
@@ -1356,7 +1356,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/virtual-fundraising/",
     "discovered_at": "2026-06-01T19:53:08.148Z",
-    "last_visited": "2026-07-13T18:32:48.900Z",
+    "last_visited": "2026-07-13T19:29:44.977Z",
     "content_hash": "7d0be81f63d629d8ceaed54adcaa8a32"
   },
   {
@@ -1365,7 +1365,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/how-to-help-corporate-engagement/",
     "discovered_at": "2026-06-01T19:53:20.060Z",
-    "last_visited": "2026-07-13T18:32:50.339Z",
+    "last_visited": "2026-07-13T19:29:46.560Z",
     "content_hash": null
   },
   {
@@ -1374,7 +1374,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/how-to-help-corporate-engagement/",
     "discovered_at": "2026-06-01T19:53:20.060Z",
-    "last_visited": "2026-07-13T18:32:51.686Z",
+    "last_visited": "2026-07-13T19:29:47.983Z",
     "content_hash": "cee0219a6db33b2d8ffab295846b015e"
   },
   {
@@ -1383,7 +1383,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/how-to-help-corporate-engagement/",
     "discovered_at": "2026-06-01T19:53:20.060Z",
-    "last_visited": "2026-07-13T18:32:52.817Z",
+    "last_visited": "2026-07-13T19:29:49.142Z",
     "content_hash": "b7ec698bd5f058cff210b9c75d7650cd"
   },
   {
@@ -1392,7 +1392,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/how-to-help-corporate-engagement/",
     "discovered_at": "2026-06-01T19:53:20.060Z",
-    "last_visited": "2026-07-13T18:32:53.940Z",
+    "last_visited": "2026-07-13T19:29:50.290Z",
     "content_hash": "29b817632f50f0dd1a3dec554f622ecd"
   },
   {
@@ -1401,7 +1401,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/how-to-help-corporate-engagement/",
     "discovered_at": "2026-06-01T19:53:20.060Z",
-    "last_visited": "2026-07-13T18:32:55.591Z",
+    "last_visited": "2026-07-13T19:29:51.854Z",
     "content_hash": "8423595043dc03d9e38558814f085e4f"
   },
   {
@@ -1410,7 +1410,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/how-to-help-corporate-engagement/",
     "discovered_at": "2026-06-01T19:53:20.060Z",
-    "last_visited": "2026-07-13T18:32:56.743Z",
+    "last_visited": "2026-07-13T19:29:53.064Z",
     "content_hash": "2fdc7878578d103754734c624dfc7464"
   },
   {
@@ -1419,7 +1419,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/how-to-help-corporate-engagement/",
     "discovered_at": "2026-06-01T19:53:20.060Z",
-    "last_visited": "2026-07-13T18:32:58.036Z",
+    "last_visited": "2026-07-13T19:29:54.682Z",
     "content_hash": "359fa351226fb3a8c0d4d8b4d11213b1"
   },
   {
@@ -1428,7 +1428,7 @@
     "status": "active",
     "discovered_from": "https://www.freewill.com/capitalareafoodbank",
     "discovered_at": "2026-06-01T19:53:40.265Z",
-    "last_visited": "2026-07-13T18:33:07.098Z",
+    "last_visited": "2026-07-13T19:30:04.046Z",
     "content_hash": "a0ce1c28c666a957ed2aace2c2784350"
   },
   {
@@ -1437,7 +1437,7 @@
     "status": "active",
     "discovered_from": "https://www.freewill.com/capitalareafoodbank",
     "discovered_at": "2026-06-01T19:53:40.265Z",
-    "last_visited": "2026-07-13T18:33:15.323Z",
+    "last_visited": "2026-07-13T19:30:12.522Z",
     "content_hash": "603390be870169b24fab8065254b9325"
   },
   {
@@ -1446,7 +1446,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/more-ways-to-help/",
     "discovered_at": "2026-06-01T19:53:47.763Z",
-    "last_visited": "2026-07-13T18:33:16.932Z",
+    "last_visited": "2026-07-13T19:30:13.917Z",
     "content_hash": null
   },
   {
@@ -1455,7 +1455,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/more-ways-to-help/",
     "discovered_at": "2026-06-01T19:53:47.763Z",
-    "last_visited": "2026-07-13T18:33:18.207Z",
+    "last_visited": "2026-07-13T19:30:15.208Z",
     "content_hash": "cee0219a6db33b2d8ffab295846b015e"
   },
   {
@@ -1464,7 +1464,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/more-ways-to-help/",
     "discovered_at": "2026-06-01T19:53:47.763Z",
-    "last_visited": "2026-07-13T18:33:19.322Z",
+    "last_visited": "2026-07-13T19:30:16.326Z",
     "content_hash": "b7ec698bd5f058cff210b9c75d7650cd"
   },
   {
@@ -1473,7 +1473,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/more-ways-to-help/",
     "discovered_at": "2026-06-01T19:53:47.763Z",
-    "last_visited": "2026-07-13T18:33:20.433Z",
+    "last_visited": "2026-07-13T19:30:18.059Z",
     "content_hash": "29b817632f50f0dd1a3dec554f622ecd"
   },
   {
@@ -1482,7 +1482,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/more-ways-to-help/",
     "discovered_at": "2026-06-01T19:53:47.763Z",
-    "last_visited": "2026-07-13T18:33:21.588Z",
+    "last_visited": "2026-07-13T19:30:19.185Z",
     "content_hash": "d73791ca39c76f8b0991bf9284855db9"
   },
   {
@@ -1491,7 +1491,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/more-ways-to-help/",
     "discovered_at": "2026-06-01T19:53:47.763Z",
-    "last_visited": "2026-07-13T18:33:22.759Z",
+    "last_visited": "2026-07-13T19:30:20.353Z",
     "content_hash": "1c47824df8880299a12c505962a59c8f"
   },
   {
@@ -1500,7 +1500,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/more-ways-to-help/",
     "discovered_at": "2026-06-01T19:53:47.763Z",
-    "last_visited": "2026-07-13T18:33:24.878Z",
+    "last_visited": "2026-07-13T19:30:22.399Z",
     "content_hash": "12c39972da3a08f1b5d0da9b8c9a6779"
   },
   {
@@ -1509,7 +1509,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/more-ways-to-help/",
     "discovered_at": "2026-06-01T19:53:47.763Z",
-    "last_visited": "2026-07-13T18:33:25.984Z",
+    "last_visited": "2026-07-13T19:30:23.507Z",
     "content_hash": "e279009f93f9712280aa56f706a6006c"
   },
   {
@@ -1518,7 +1518,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/more-ways-to-help/",
     "discovered_at": "2026-06-01T19:53:47.763Z",
-    "last_visited": "2026-07-13T18:33:27.191Z",
+    "last_visited": "2026-07-13T19:30:24.727Z",
     "content_hash": "d73791ca39c76f8b0991bf9284855db9"
   },
   {
@@ -1527,7 +1527,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/more-ways-to-help/",
     "discovered_at": "2026-06-01T19:53:47.763Z",
-    "last_visited": "2026-07-13T18:33:28.382Z",
+    "last_visited": "2026-07-13T19:30:25.923Z",
     "content_hash": "1c47824df8880299a12c505962a59c8f"
   },
   {
@@ -1536,7 +1536,7 @@
     "status": "failed",
     "discovered_from": "https://www.capitalareafoodbank.org/impact/",
     "discovered_at": "2026-06-01T19:53:57.061Z",
-    "last_visited": "2026-07-13T18:33:29.750Z",
+    "last_visited": "2026-07-13T19:30:27.282Z",
     "content_hash": null
   },
   {
@@ -1545,7 +1545,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/impact/",
     "discovered_at": "2026-06-01T19:53:57.061Z",
-    "last_visited": "2026-07-13T18:33:30.979Z",
+    "last_visited": "2026-07-13T19:30:29.197Z",
     "content_hash": "cee0219a6db33b2d8ffab295846b015e"
   },
   {
@@ -1554,7 +1554,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/impact/",
     "discovered_at": "2026-06-01T19:53:57.061Z",
-    "last_visited": "2026-07-13T18:33:32.093Z",
+    "last_visited": "2026-07-13T19:30:31.028Z",
     "content_hash": "b7ec698bd5f058cff210b9c75d7650cd"
   },
   {
@@ -1563,7 +1563,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/impact/",
     "discovered_at": "2026-06-01T19:53:57.061Z",
-    "last_visited": "2026-07-13T18:33:33.206Z",
+    "last_visited": "2026-07-13T19:30:32.159Z",
     "content_hash": "29b817632f50f0dd1a3dec554f622ecd"
   },
   {
@@ -1572,7 +1572,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/impact/",
     "discovered_at": "2026-06-01T19:53:57.061Z",
-    "last_visited": "2026-07-13T18:33:34.310Z",
+    "last_visited": "2026-07-13T19:30:34.055Z",
     "content_hash": "291158e052170642b58f912539edf0c4"
   },
   {
@@ -1581,7 +1581,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/impact/",
     "discovered_at": "2026-06-01T19:53:57.061Z",
-    "last_visited": "2026-07-13T18:33:35.465Z",
+    "last_visited": "2026-07-13T19:30:35.810Z",
     "content_hash": "7ac68cde3157271ac2684876547e30e5"
   },
   {
@@ -1590,7 +1590,7 @@
     "status": "active",
     "discovered_from": "https://www.freewill.com/capitalareafoodbank",
     "discovered_at": "2026-06-01T19:56:03.057Z",
-    "last_visited": "2026-07-13T18:33:44.031Z",
+    "last_visited": "2026-07-13T19:30:44.669Z",
     "content_hash": "a0ce1c28c666a957ed2aace2c2784350"
   },
   {
@@ -1599,7 +1599,7 @@
     "status": "active",
     "discovered_from": "https://www.freewill.com/capitalareafoodbank",
     "discovered_at": "2026-06-01T19:56:03.057Z",
-    "last_visited": "2026-07-13T18:33:52.145Z",
+    "last_visited": "2026-07-13T19:30:53.001Z",
     "content_hash": "603390be870169b24fab8065254b9325"
   },
   {
@@ -1608,7 +1608,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/",
     "discovered_at": "2026-06-29T19:56:21.483Z",
-    "last_visited": "2026-07-13T18:33:54.152Z",
+    "last_visited": "2026-07-13T19:30:54.291Z",
     "content_hash": "cee0219a6db33b2d8ffab295846b015e"
   },
   {
@@ -1617,7 +1617,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/",
     "discovered_at": "2026-06-29T19:56:21.483Z",
-    "last_visited": "2026-07-13T18:33:55.413Z",
+    "last_visited": "2026-07-13T19:30:55.590Z",
     "content_hash": "01434b3804a653904140a8dbffa34e04"
   },
   {
@@ -1626,7 +1626,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/",
     "discovered_at": "2026-06-29T19:56:21.483Z",
-    "last_visited": "2026-07-13T18:33:57.015Z",
+    "last_visited": "2026-07-13T19:30:57.291Z",
     "content_hash": "a871ecf42fb59648894b05fdfa394208"
   },
   {
@@ -1635,7 +1635,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/",
     "discovered_at": "2026-06-29T19:56:21.483Z",
-    "last_visited": "2026-07-13T18:33:58.824Z",
+    "last_visited": "2026-07-13T19:30:59.034Z",
     "content_hash": "cd6a9a98483ac980bd0cf855bbeff5f4"
   },
   {
@@ -1644,7 +1644,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/",
     "discovered_at": "2026-06-29T19:56:21.483Z",
-    "last_visited": "2026-07-13T18:34:00.473Z",
+    "last_visited": "2026-07-13T19:31:00.986Z",
     "content_hash": "37e5d81ba17a535e33f955c5a730dbbe"
   },
   {
@@ -1653,7 +1653,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/",
     "discovered_at": "2026-06-29T19:56:21.483Z",
-    "last_visited": "2026-07-13T18:34:02.274Z",
+    "last_visited": "2026-07-13T19:31:02.584Z",
     "content_hash": "8c5daf85a582b7f9f4e57a6e3e97c6cf"
   },
   {
@@ -1662,7 +1662,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/",
     "discovered_at": "2026-06-29T19:56:21.483Z",
-    "last_visited": "2026-07-13T18:34:03.957Z",
+    "last_visited": "2026-07-13T19:31:04.377Z",
     "content_hash": "957c15b7745ce54a164ee334fda39a8b"
   },
   {
@@ -1671,7 +1671,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/",
     "discovered_at": "2026-06-29T19:56:21.483Z",
-    "last_visited": "2026-07-13T18:34:05.763Z",
+    "last_visited": "2026-07-13T19:31:06.002Z",
     "content_hash": "25e87b037de94b65d2699856809e4dda"
   },
   {
@@ -1680,7 +1680,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/",
     "discovered_at": "2026-06-29T19:56:21.483Z",
-    "last_visited": "2026-07-13T18:34:07.296Z",
+    "last_visited": "2026-07-13T19:31:07.695Z",
     "content_hash": "b1fa87e12c1322d1c14bff63d0d8bf43"
   },
   {
@@ -1689,7 +1689,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/more-ways-to-help/gifts-of-stock-and-bonds/",
     "discovered_at": "2026-07-08T19:32:09.416Z",
-    "last_visited": "2026-07-13T18:34:09.385Z",
+    "last_visited": "2026-07-13T19:31:08.840Z",
     "content_hash": "e3e456bb607fab98a06ec0d2f2d3a40a"
   },
   {
@@ -1698,7 +1698,7 @@
     "status": "active",
     "discovered_from": "https://www.capitalareafoodbank.org/how-to-help/more-ways-to-help/gifts-of-stock-and-bonds/",
     "discovered_at": "2026-07-08T19:32:09.416Z",
-    "last_visited": "2026-07-13T18:34:11.174Z",
+    "last_visited": "2026-07-13T19:31:10.676Z",
     "content_hash": "b9808b058a218e916374db76682950c7"
   }
 ]
