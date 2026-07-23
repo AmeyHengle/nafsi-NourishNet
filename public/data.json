@@ -52,6 +52,29 @@
     "extracted_at": "2026-04-13T00:00:00Z"
   },
   {
+    "entity_type": "event",
+    "name": "Community Market",
+    "address": null,
+    "hours": null,
+    "eligibility": null,
+    "food_types": [
+      "produce"
+    ],
+    "languages_served": [
+      "en"
+    ],
+    "contact": null,
+    "description": "Free, monthly food and wellness market",
+    "confidence_score": 0.45,
+    "source_url": "https://volunteer.capitalareafoodbank.org/",
+    "source": "web",
+    "extracted_at": "2026-07-23T10:58:11.808Z",
+    "lat": null,
+    "lng": null,
+    "status": "ongoing",
+    "validated_at": "2026-07-23T11:09:29.949Z"
+  },
+  {
     "entity_type": "org",
     "name": "Capital Area Food Bank",
     "address": "4900 Puerto Rico Ave NE, Washington, DC 20017",
@@ -122,6 +145,71 @@
     "status": "active",
     "source_url": "https://www.capitalareafoodbank.org/volunteer",
     "extracted_at": "2026-04-13T00:00:00Z"
+  },
+  {
+    "entity_type": "opportunity",
+    "name": "Grocery Delivery Drivers",
+    "address": null,
+    "hours": null,
+    "eligibility": null,
+    "food_types": null,
+    "languages_served": [
+      "en"
+    ],
+    "contact": null,
+    "description": "Help deliver groceries to neighbors",
+    "confidence_score": 0.45,
+    "source_url": "https://volunteer.capitalareafoodbank.org/",
+    "source": "web",
+    "extracted_at": "2026-07-23T10:58:11.808Z",
+    "lat": null,
+    "lng": null,
+    "status": "unverified",
+    "validated_at": "2026-07-23T11:09:29.949Z"
+  },
+  {
+    "entity_type": "opportunity",
+    "name": "Distribution Center",
+    "address": null,
+    "hours": null,
+    "eligibility": null,
+    "food_types": null,
+    "languages_served": [
+      "en"
+    ],
+    "contact": null,
+    "description": "Sort and pack donated food items",
+    "confidence_score": 0.45,
+    "source_url": "https://volunteer.capitalareafoodbank.org/",
+    "source": "web",
+    "extracted_at": "2026-07-23T10:58:11.808Z",
+    "lat": null,
+    "lng": null,
+    "status": "unverified",
+    "validated_at": "2026-07-23T11:09:29.949Z"
+  },
+  {
+    "entity_type": "opportunity",
+    "name": "Garden",
+    "address": null,
+    "hours": null,
+    "eligibility": null,
+    "food_types": [
+      "produce"
+    ],
+    "languages_served": [
+      "en"
+    ],
+    "contact": null,
+    "description": "Share joy of produce with others",
+    "confidence_score": 0.45,
+    "source_url": "https://volunteer.capitalareafoodbank.org/",
+    "source": "web",
+    "extracted_at": "2026-07-23T10:58:11.808Z",
+    "lat": null,
+    "lng": null,
+    "status": "unverified",
+    "validated_at": "2026-07-23T11:09:29.949Z"
   },
   {
     "entity_type": "event",
