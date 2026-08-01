@@ -72,7 +72,11 @@
     "lat": null,
     "lng": null,
     "status": "ongoing",
-    "validated_at": "2026-07-23T11:09:29.949Z"
+    "validated_at": "2026-07-23T11:09:29.949Z",
+    "source_urls": [
+      "https://volunteer.capitalareafoodbank.org/"
+    ],
+    "merged": true
   },
   {
     "entity_type": "org",
@@ -152,7 +156,7 @@
     "address": null,
     "hours": null,
     "eligibility": null,
-    "food_types": null,
+    "food_types": [],
     "languages_served": [
       "en"
     ],
@@ -165,7 +169,11 @@
     "lat": null,
     "lng": null,
     "status": "unverified",
-    "validated_at": "2026-07-23T11:09:29.949Z"
+    "validated_at": "2026-07-23T11:09:29.949Z",
+    "source_urls": [
+      "https://volunteer.capitalareafoodbank.org/"
+    ],
+    "merged": true
   },
   {
     "entity_type": "opportunity",
@@ -173,7 +181,7 @@
     "address": null,
     "hours": null,
     "eligibility": null,
-    "food_types": null,
+    "food_types": [],
     "languages_served": [
       "en"
     ],
@@ -186,7 +194,11 @@
     "lat": null,
     "lng": null,
     "status": "unverified",
-    "validated_at": "2026-07-23T11:09:29.949Z"
+    "validated_at": "2026-07-23T11:09:29.949Z",
+    "source_urls": [
+      "https://volunteer.capitalareafoodbank.org/"
+    ],
+    "merged": true
   },
   {
     "entity_type": "opportunity",
@@ -209,7 +221,11 @@
     "lat": null,
     "lng": null,
     "status": "unverified",
-    "validated_at": "2026-07-23T11:09:29.949Z"
+    "validated_at": "2026-07-23T11:09:29.949Z",
+    "source_urls": [
+      "https://volunteer.capitalareafoodbank.org/"
+    ],
+    "merged": true
   },
   {
     "entity_type": "event",
